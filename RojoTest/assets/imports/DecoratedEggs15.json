@@ -1,0 +1,77 @@
+[
+  {
+    "name": "01 Sakura Shrine.001",
+    "triangles": 6540,
+    "materials": 6
+  },
+  {
+    "name": "02 Volcanic Inferno.001",
+    "triangles": 4004,
+    "materials": 5
+  },
+  {
+    "name": "03 Ancient Sakura.001",
+    "triangles": 7928,
+    "materials": 7
+  },
+  {
+    "name": "04 Sky Waterfall.001",
+    "triangles": 5450,
+    "materials": 7
+  },
+  {
+    "name": "05 Astral Orbit.001",
+    "triangles": 3550,
+    "materials": 4
+  },
+  {
+    "name": "06 Forest Heart.001",
+    "triangles": 4708,
+    "materials": 5
+  },
+  {
+    "name": "07 Tropical Bloom.001",
+    "triangles": 7748,
+    "materials": 7
+  },
+  {
+    "name": "08 Frozen Rune.001",
+    "triangles": 3020,
+    "materials": 3
+  },
+  {
+    "name": "09 Void Crystal.001",
+    "triangles": 3488,
+    "materials": 4
+  },
+  {
+    "name": "10 Solar Crown.001",
+    "triangles": 4854,
+    "materials": 3
+  },
+  {
+    "name": "11 Moss Ruins.001",
+    "triangles": 4780,
+    "materials": 5
+  },
+  {
+    "name": "12 Coral Ocean.001",
+    "triangles": 3512,
+    "materials": 5
+  },
+  {
+    "name": "13 Desert Oasis.001",
+    "triangles": 3896,
+    "materials": 5
+  },
+  {
+    "name": "14 Chained Abyss.001",
+    "triangles": 5472,
+    "materials": 4
+  },
+  {
+    "name": "15 Garden Bloom.001",
+    "triangles": 6548,
+    "materials": 6
+  }
+]

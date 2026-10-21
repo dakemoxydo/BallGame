@@ -1,0 +1,64 @@
+{
+  "file": "C:\\Users\\userr\\Documents\\RobloxBalls_VertexColor\\AllBalls_NoTextures.fbx",
+  "meshes": 14,
+  "image_textures": 0,
+  "color_attributes_verified": true,
+  "details": [
+    {
+      "mesh": "Ball_01_RubberRookie_Body",
+      "colors": 61
+    },
+    {
+      "mesh": "Ball_02_SteelImpact_Body",
+      "colors": 3
+    },
+    {
+      "mesh": "Ball_03_CrystalIce_Body",
+      "colors": 2
+    },
+    {
+      "mesh": "Ball_03_CrystalIce_Shell",
+      "colors": 1
+    },
+    {
+      "mesh": "Ball_04_VolcanoHeart_Body",
+      "colors": 2
+    },
+    {
+      "mesh": "Ball_05_MechanicalReactor_Body",
+      "colors": 1
+    },
+    {
+      "mesh": "Ball_05_MechanicalReactor_Core",
+      "colors": 1
+    },
+    {
+      "mesh": "Ball_06_PlasmaSatellite_Body",
+      "colors": 3
+    },
+    {
+      "mesh": "Ball_07_ThunderSplit_Body",
+      "colors": 3
+    },
+    {
+      "mesh": "Ball_08_DragonSun_Body",
+      "colors": 3
+    },
+    {
+      "mesh": "Ball_09_BlackHole_Body",
+      "colors": 4
+    },
+    {
+      "mesh": "Ball_10_WorldCreator_Body",
+      "colors": 2
+    },
+    {
+      "mesh": "Ball_10_WorldCreator_Shell",
+      "colors": 1
+    },
+    {
+      "mesh": "Ball_10_WorldCreator_World",
+      "colors": 2
+    }
+  ]
+}

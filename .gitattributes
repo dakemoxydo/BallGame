@@ -1,0 +1,17 @@
+# Text files are checked out with LF endings on every platform. StyLua and the
+# Luau parser reject CRLF, so a Windows checkout must not rewrite the sources.
+* text=auto eol=lf
+
+# Windows batch files keep CRLF so cmd.exe always reads them correctly.
+*.bat text eol=crlf
+
+# Binary game assets and Blender sources are stored in Git LFS.
+# Runtime XML and JSON stay as plain text so diffs and reviews keep working.
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+# Place files are binary and huge, so they belong into LFS as well.
+*.rbxl filter=lfs diff=lfs merge=lfs -text

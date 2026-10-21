@@ -1,0 +1,439 @@
+{
+  "source": "C:\\Users\\userr\\Downloads\\36 петов.blend",
+  "pets": [
+    {
+      "index": 1,
+      "id": "ForestCat",
+      "name": "Forest Cat",
+      "vertices": 1094,
+      "triangles": 2112,
+      "size": [
+        1.9400005340576172,
+        2.354999542236328,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 2,
+      "id": "Dog",
+      "name": "Dog",
+      "vertices": 1310,
+      "triangles": 2540,
+      "size": [
+        2.34999942779541,
+        1.904998779296875,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 3,
+      "id": "BlossomBunny",
+      "name": "Blossom Bunny",
+      "vertices": 4728,
+      "triangles": 9252,
+      "size": [
+        2.1285330057144165,
+        3.0649986267089844,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 4,
+      "id": "Tiger",
+      "name": "Tiger",
+      "vertices": 1450,
+      "triangles": 2796,
+      "size": [
+        1.940000057220459,
+        2.354999542236328,
+        2.334233283996582
+      ]
+    },
+    {
+      "index": 5,
+      "id": "FlameCat",
+      "name": "Flame Cat",
+      "vertices": 1143,
+      "triangles": 2178,
+      "size": [
+        2.250000476837158,
+        3.0049991607666016,
+        1.86899995803833
+      ]
+    },
+    {
+      "index": 6,
+      "id": "Bee",
+      "name": "Bee",
+      "vertices": 2888,
+      "triangles": 5632,
+      "size": [
+        3.6399998664855957,
+        2.7449989318847656,
+        1.6089999675750732
+      ]
+    },
+    {
+      "index": 7,
+      "id": "SakuraCat",
+      "name": "Sakura Cat",
+      "vertices": 3870,
+      "triangles": 7560,
+      "size": [
+        2.315073013305664,
+        3.0232419967651367,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 8,
+      "id": "GreenDragon",
+      "name": "Green Dragon",
+      "vertices": 1793,
+      "triangles": 3474,
+      "size": [
+        3.640000343322754,
+        2.8550004959106445,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 9,
+      "id": "Cow",
+      "name": "Cow",
+      "vertices": 1662,
+      "triangles": 3224,
+      "size": [
+        2.3200000524520874,
+        2.344998359680176,
+        1.6449999809265137
+      ]
+    },
+    {
+      "index": 10,
+      "id": "IceCat",
+      "name": "Ice Cat",
+      "vertices": 1119,
+      "triangles": 2142,
+      "size": [
+        2.25,
+        2.8550004959106445,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 11,
+      "id": "RedDragon",
+      "name": "Red Dragon",
+      "vertices": 1793,
+      "triangles": 3474,
+      "size": [
+        3.640000343322754,
+        2.8550004959106445,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 12,
+      "id": "SailorCat",
+      "name": "Sailor Cat",
+      "vertices": 1214,
+      "triangles": 2344,
+      "size": [
+        1.9400005340576172,
+        2.3550004959106445,
+        1.628999948501587
+      ]
+    },
+    {
+      "index": 13,
+      "id": "MossGolem",
+      "name": "Moss Golem",
+      "vertices": 1588,
+      "triangles": 3072,
+      "size": [
+        1.9776639938354492,
+        2.390801429748535,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 14,
+      "id": "Deer",
+      "name": "Deer",
+      "vertices": 2116,
+      "triangles": 4108,
+      "size": [
+        2.140000343322754,
+        2.7044973373413086,
+        2.1399998664855957
+      ]
+    },
+    {
+      "index": 15,
+      "id": "Fox",
+      "name": "Fox",
+      "vertices": 1352,
+      "triangles": 2608,
+      "size": [
+        1.940000057220459,
+        2.405000686645508,
+        2.2690000534057617
+      ]
+    },
+    {
+      "index": 16,
+      "id": "MoonCat",
+      "name": "Moon Cat",
+      "vertices": 1347,
+      "triangles": 2590,
+      "size": [
+        2.25,
+        2.854999542236328,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 17,
+      "id": "Cactus",
+      "name": "Cactus",
+      "vertices": 1880,
+      "triangles": 3660,
+      "size": [
+        2.690000534057617,
+        2.4052648544311523,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 18,
+      "id": "Axolotl",
+      "name": "Axolotl",
+      "vertices": 1778,
+      "triangles": 3456,
+      "size": [
+        2.779999256134033,
+        2.3550004959106445,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 19,
+      "id": "Shark",
+      "name": "Shark",
+      "vertices": 2016,
+      "triangles": 3916,
+      "size": [
+        3.6399998664855957,
+        2.5049991607666016,
+        1.625
+      ]
+    },
+    {
+      "index": 20,
+      "id": "LavaCat",
+      "name": "Lava Cat",
+      "vertices": 1294,
+      "triangles": 2472,
+      "size": [
+        1.9400005340576172,
+        2.3550004959106445,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 21,
+      "id": "Pineapple",
+      "name": "Pineapple",
+      "vertices": 3116,
+      "triangles": 6052,
+      "size": [
+        2.1399999260902405,
+        2.135000228881836,
+        2.1399998664855957
+      ]
+    },
+    {
+      "index": 22,
+      "id": "Raccoon",
+      "name": "Raccoon",
+      "vertices": 2026,
+      "triangles": 3940,
+      "size": [
+        1.940000057220459,
+        2.3550004959106445,
+        2.3959187269210815
+      ]
+    },
+    {
+      "index": 23,
+      "id": "AngelCat",
+      "name": "Angel Cat",
+      "vertices": 2034,
+      "triangles": 3968,
+      "size": [
+        3.640000343322754,
+        2.4750003814697266,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 24,
+      "id": "Watermelon",
+      "name": "Watermelon",
+      "vertices": 2732,
+      "triangles": 5328,
+      "size": [
+        2.1400012969970703,
+        2.135000228881836,
+        2.1399998664855957
+      ]
+    },
+    {
+      "index": 25,
+      "id": "CrystalCat",
+      "name": "Crystal Cat",
+      "vertices": 1119,
+      "triangles": 2142,
+      "size": [
+        2.25,
+        2.8550000190734863,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 26,
+      "id": "Chocolate",
+      "name": "Chocolate",
+      "vertices": 1424,
+      "triangles": 2764,
+      "size": [
+        1.8000001907348633,
+        2.4749999046325684,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 27,
+      "id": "Frog",
+      "name": "Frog",
+      "vertices": 2452,
+      "triangles": 4788,
+      "size": [
+        2.1399999260902405,
+        2.3650002479553223,
+        2.1399998664855957
+      ]
+    },
+    {
+      "index": 28,
+      "id": "Butterfly",
+      "name": "Butterfly",
+      "vertices": 2036,
+      "triangles": 3964,
+      "size": [
+        3.6000000834465027,
+        2.5144290924072266,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 29,
+      "id": "CloudBird",
+      "name": "Cloud Bird",
+      "vertices": 2115,
+      "triangles": 4122,
+      "size": [
+        3.640000343322754,
+        2.325000286102295,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 30,
+      "id": "Mushroom",
+      "name": "Mushroom",
+      "vertices": 1540,
+      "triangles": 2996,
+      "size": [
+        2.3400001525878906,
+        2.4050002098083496,
+        1.9600000381469727
+      ]
+    },
+    {
+      "index": 31,
+      "id": "SunCat",
+      "name": "Sun Cat",
+      "vertices": 3171,
+      "triangles": 6174,
+      "size": [
+        2.277499198913574,
+        2.8549999073147774,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 32,
+      "id": "FlowerDragon",
+      "name": "Flower Dragon",
+      "vertices": 3880,
+      "triangles": 7548,
+      "size": [
+        3.640000343322754,
+        2.8549999073147774,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 33,
+      "id": "Strawberry",
+      "name": "Strawberry",
+      "vertices": 3136,
+      "triangles": 6132,
+      "size": [
+        2.1399999260902405,
+        2.135000117123127,
+        2.1399998664855957
+      ]
+    },
+    {
+      "index": 34,
+      "id": "ToxicCat",
+      "name": "Toxic Cat",
+      "vertices": 1287,
+      "triangles": 2466,
+      "size": [
+        2.25,
+        2.8549999073147774,
+        1.593999981880188
+      ]
+    },
+    {
+      "index": 35,
+      "id": "Panda",
+      "name": "Panda",
+      "vertices": 2680,
+      "triangles": 5236,
+      "size": [
+        2.140000343322754,
+        2.264999993145466,
+        2.1399998664855957
+      ]
+    },
+    {
+      "index": 36,
+      "id": "GalaxyCat",
+      "name": "Galaxy Cat",
+      "vertices": 1476,
+      "triangles": 2864,
+      "size": [
+        1.9400005340576172,
+        2.4749997928738594,
+        1.8899999856948853
+      ]
+    }
+  ],
+  "normal": "pets-normal.png",
+  "fbx": "pets36.fbx"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Ball",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedFirst": {
+      "MapIntro": {
+        "$path": "src/loading"
+      }
+    },
+    "ReplicatedStorage": {
+      "Packages": {
+        "$path": "Packages"
+      },
+      "Shared": {
+        "$path": "src/shared",
+        "PetTemplates": {
+          "$path": "assets/pets/pack36/UncommonPetTemplates.rbxmx"
+        }
+      }
+    },
+    "ServerStorage": {
+      "ServerPackages": {
+        "$path": "src/serverPackages"
+      },
+      "ImportedSakuraVisuals": {
+        "$path": "assets/studio/ImportedSakuraVisuals.rbxmx"
+      },
+      "ImportedPortalVisuals": {
+        "$path": "assets/studio/ImportedPortalVisuals.rbxmx"
+      },
+      "ImportedEggVisuals": {
+        "$path": "assets/studio/ImportedEggVisuals.rbxmx"
+      },
+      "ImportedTrainingFields": {
+        "$path": "assets/studio/ImportedTrainingFields.rbxmx"
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "Workspace": {
+      "$ignoreUnknownInstances": true
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  },
+  "servePort": 34872,
+  "servePlaceIds": [
+    106456161057435
+  ]
+}

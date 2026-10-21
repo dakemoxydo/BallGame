@@ -1,0 +1,6 @@
+# One-off Studio scripts. They are executed by hand through Studio MCP or the
+# Command Bar, so they intentionally use the `_G` global to hand results back.
+std = "roblox"
+
+[lints]
+global_usage = "allow"

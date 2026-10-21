@@ -1,0 +1,1851 @@
+{
+  "collections": [
+    {
+      "name": "Animated portal stars",
+      "count": 16,
+      "types": [
+        "MESH"
+      ]
+    },
+    {
+      "name": "Arcane Violet",
+      "count": 96,
+      "types": [
+        "CURVE",
+        "EMPTY",
+        "MESH",
+        "LIGHT"
+      ]
+    },
+    {
+      "name": "Blazing Fire",
+      "count": 96,
+      "types": [
+        "CURVE",
+        "EMPTY",
+        "MESH",
+        "LIGHT"
+      ]
+    },
+    {
+      "name": "Collection",
+      "count": 3,
+      "types": [
+        "CAMERA",
+        "MESH",
+        "LIGHT"
+      ]
+    },
+    {
+      "name": "Emerald Portal",
+      "count": 191,
+      "types": [
+        "CURVE",
+        "EMPTY",
+        "MESH"
+      ]
+    },
+    {
+      "name": "Frozen Ice",
+      "count": 147,
+      "types": [
+        "CURVE",
+        "EMPTY",
+        "MESH",
+        "LIGHT"
+      ]
+    },
+    {
+      "name": "Golden Yellow Portal",
+      "count": 191,
+      "types": [
+        "CURVE",
+        "EMPTY",
+        "MESH"
+      ]
+    },
+    {
+      "name": "Hot Pink Portal",
+      "count": 191,
+      "types": [
+        "CURVE",
+        "EMPTY",
+        "MESH"
+      ]
+    },
+    {
+      "name": "Orange Portal",
+      "count": 191,
+      "types": [
+        "CURVE",
+        "EMPTY",
+        "MESH"
+      ]
+    },
+    {
+      "name": "Quartz growing on arch stones",
+      "count": 0,
+      "types": []
+    },
+    {
+      "name": "Quartz growing on arch stones.001",
+      "count": 18,
+      "types": [
+        "MESH"
+      ]
+    },
+    {
+      "name": "Rose Blossom",
+      "count": 142,
+      "types": [
+        "CURVE",
+        "EMPTY",
+        "MESH",
+        "LIGHT"
+      ]
+    },
+    {
+      "name": "Solar Gold",
+      "count": 105,
+      "types": [
+        "CURVE",
+        "EMPTY",
+        "MESH",
+        "LIGHT"
+      ]
+    },
+    {
+      "name": "Turquoise butterflies on stones",
+      "count": 132,
+      "types": [
+        "CURVE",
+        "EMPTY",
+        "MESH"
+      ]
+    },
+    {
+      "name": "Turquoise Portal",
+      "count": 191,
+      "types": [
+        "CURVE",
+        "EMPTY",
+        "MESH"
+      ]
+    },
+    {
+      "name": "Verdant Nature",
+      "count": 110,
+      "types": [
+        "CURVE",
+        "EMPTY",
+        "MESH",
+        "LIGHT"
+      ]
+    },
+    {
+      "name": "Violet Portal",
+      "count": 191,
+      "types": [
+        "CURVE",
+        "EMPTY",
+        "MESH"
+      ]
+    }
+  ],
+  "large": [
+    {
+      "name": "Presentation floor",
+      "size": [
+        200.0,
+        200.0,
+        0.0
+      ],
+      "collections": [
+        "Scene Collection"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Render Result",
+      "path": "",
+      "packed": false
+    },
+    {
+      "name": "User supplied stone normal texture",
+      "path": "C:\\Users\\userr\\AppData\\Local\\Temp\\codex-clipboard-673d3c83-3b58-4292-b5ad-0e4744e2f151.png",
+      "packed": true
+    },
+    {
+      "name": "Viewer Node",
+      "path": "",
+      "packed": false
+    }
+  ],
+  "materials": [
+    {
+      "name": "Arcane Violet bright emblems",
+      "color": [
+        0.6399999856948853,
+        0.29440000653266907,
+        1.0,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Arcane Violet magic veins",
+      "color": [
+        0.5,
+        0.019999999552965164,
+        1.0,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Arcane Violet obsidian",
+      "color": [
+        0.06300000101327896,
+        0.01979999989271164,
+        0.1080000028014183,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Arcane Violet radiant crystal",
+      "color": [
+        0.625,
+        0.26499998569488525,
+        1.0,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Arcane Violet swirling magic",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "OUTPUT_MATERIAL",
+        "EMISSION",
+        "TEX_COORD",
+        "SEPXYZ",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "VALUE",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "TEX_NOISE",
+        "MATH",
+        "VALTORGB"
+      ]
+    },
+    {
+      "name": "Arcane Violet textured stone",
+      "color": [
+        0.14499999582767487,
+        0.039400000125169754,
+        0.2549999952316284,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP"
+      ]
+    },
+    {
+      "name": "Blazing Fire bright emblems",
+      "color": [
+        1.0,
+        0.3952000141143799,
+        0.28360000252723694,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Blazing Fire magic veins",
+      "color": [
+        1.0,
+        0.1599999964237213,
+        0.004999999888241291,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Blazing Fire obsidian",
+      "color": [
+        0.1080000028014183,
+        0.03240000084042549,
+        0.018449999392032623,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Blazing Fire radiant crystal",
+      "color": [
+        1.0,
+        0.3700000047683716,
+        0.2537499964237213,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Blazing Fire swirling magic",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "OUTPUT_MATERIAL",
+        "EMISSION",
+        "TEX_COORD",
+        "SEPXYZ",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "VALUE",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "TEX_NOISE",
+        "MATH",
+        "VALTORGB"
+      ]
+    },
+    {
+      "name": "Blazing Fire textured stone",
+      "color": [
+        0.2549999952316284,
+        0.07020000368356705,
+        0.03610000014305115,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP"
+      ]
+    },
+    {
+      "name": "Butterfly deep teal borders",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly deep teal borders Emerald",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly deep teal borders Golden Yellow",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly deep teal borders Hot Pink",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly deep teal borders Orange",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly deep teal borders Turquoise",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly deep teal borders Violet",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly pale aqua markings",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly pale aqua markings Emerald",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly pale aqua markings Golden Yellow",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly pale aqua markings Hot Pink",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly pale aqua markings Orange",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly pale aqua markings Turquoise",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly pale aqua markings Violet",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly velvet teal body",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly velvet teal body Emerald",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly velvet teal body Golden Yellow",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly velvet teal body Hot Pink",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly velvet teal body Orange",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly velvet teal body Turquoise",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly velvet teal body Violet",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly vivid turquoise",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly vivid turquoise Emerald",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly vivid turquoise Golden Yellow",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly vivid turquoise Hot Pink",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly vivid turquoise Orange",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly vivid turquoise Turquoise",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Butterfly vivid turquoise Violet",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Dark charcoal floor",
+      "color": [
+        0.008999999612569809,
+        0.013000000268220901,
+        0.02500000037252903,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Flower heart gold",
+      "color": [
+        1.0,
+        0.6000000238418579,
+        0.019999999552965164,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Frozen Ice bright emblems",
+      "color": [
+        0.287200003862381,
+        0.6976000070571899,
+        1.0,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Frozen Ice magic veins",
+      "color": [
+        0.009999999776482582,
+        0.5799999833106995,
+        1.0,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Frozen Ice obsidian",
+      "color": [
+        0.01889999955892563,
+        0.07020000368356705,
+        0.1080000028014183,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Frozen Ice radiant crystal",
+      "color": [
+        0.2574999928474426,
+        0.6850000023841858,
+        1.0,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Frozen Ice swirling magic",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "OUTPUT_MATERIAL",
+        "EMISSION",
+        "TEX_COORD",
+        "SEPXYZ",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "VALUE",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "TEX_NOISE",
+        "MATH",
+        "VALTORGB"
+      ]
+    },
+    {
+      "name": "Frozen Ice textured stone",
+      "color": [
+        0.03720000013709068,
+        0.16259999573230743,
+        0.2549999952316284,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP"
+      ]
+    },
+    {
+      "name": "Glowing cyan runes",
+      "color": [
+        0.05000000074505806,
+        0.8999999761581421,
+        1.0,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Glowing cyan runes Emerald",
+      "color": [
+        0.05000000074505806,
+        0.8999999761581421,
+        1.0,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Glowing cyan runes Golden Yellow",
+      "color": [
+        0.05000000074505806,
+        0.8999999761581421,
+        1.0,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Glowing cyan runes Hot Pink",
+      "color": [
+        0.05000000074505806,
+        0.8999999761581421,
+        1.0,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Glowing cyan runes Orange",
+      "color": [
+        0.05000000074505806,
+        0.8999999761581421,
+        1.0,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Glowing cyan runes Turquoise",
+      "color": [
+        0.05000000074505806,
+        0.8999999761581421,
+        1.0,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Glowing cyan runes Violet",
+      "color": [
+        0.05000000074505806,
+        0.8999999761581421,
+        1.0,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Living moss vine",
+      "color": [
+        0.07000000029802322,
+        0.1899999976158142,
+        0.004999999888241291,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Living portal nebula",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "OUTPUT_MATERIAL",
+        "EMISSION",
+        "TEX_NOISE",
+        "TEX_COORD",
+        "VALTORGB",
+        "TEX_VORONOI",
+        "VALTORGB",
+        "MIX_RGB"
+      ]
+    },
+    {
+      "name": "Living portal nebula Emerald",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "OUTPUT_MATERIAL",
+        "EMISSION",
+        "TEX_NOISE",
+        "TEX_COORD",
+        "VALTORGB",
+        "TEX_VORONOI",
+        "VALTORGB",
+        "MIX_RGB"
+      ]
+    },
+    {
+      "name": "Living portal nebula Golden Yellow",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "OUTPUT_MATERIAL",
+        "EMISSION",
+        "TEX_NOISE",
+        "TEX_COORD",
+        "VALTORGB",
+        "TEX_VORONOI",
+        "VALTORGB",
+        "MIX_RGB"
+      ]
+    },
+    {
+      "name": "Living portal nebula Hot Pink",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "OUTPUT_MATERIAL",
+        "EMISSION",
+        "TEX_NOISE",
+        "TEX_COORD",
+        "VALTORGB",
+        "TEX_VORONOI",
+        "VALTORGB",
+        "MIX_RGB"
+      ]
+    },
+    {
+      "name": "Living portal nebula Orange",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "OUTPUT_MATERIAL",
+        "EMISSION",
+        "TEX_NOISE",
+        "TEX_COORD",
+        "VALTORGB",
+        "TEX_VORONOI",
+        "VALTORGB",
+        "MIX_RGB"
+      ]
+    },
+    {
+      "name": "Living portal nebula Turquoise",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "OUTPUT_MATERIAL",
+        "EMISSION",
+        "TEX_NOISE",
+        "TEX_COORD",
+        "VALTORGB",
+        "TEX_VORONOI",
+        "VALTORGB",
+        "MIX_RGB"
+      ]
+    },
+    {
+      "name": "Living portal nebula Violet",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "OUTPUT_MATERIAL",
+        "EMISSION",
+        "TEX_NOISE",
+        "TEX_COORD",
+        "VALTORGB",
+        "TEX_VORONOI",
+        "VALTORGB",
+        "MIX_RGB"
+      ]
+    },
+    {
+      "name": "Material",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "OUTPUT_MATERIAL",
+        "BSDF_PRINCIPLED"
+      ]
+    },
+    {
+      "name": "Midnight ground",
+      "color": [
+        0.012000000104308128,
+        0.019999999552965164,
+        0.03500000014901161,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Obsidian pedestal",
+      "color": [
+        0.02500000037252903,
+        0.03500000014901161,
+        0.054999999701976776,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Obsidian pedestal Emerald",
+      "color": [
+        0.02500000037252903,
+        0.03500000014901161,
+        0.054999999701976776,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Obsidian pedestal Golden Yellow",
+      "color": [
+        0.02500000037252903,
+        0.03500000014901161,
+        0.054999999701976776,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Obsidian pedestal Hot Pink",
+      "color": [
+        0.02500000037252903,
+        0.03500000014901161,
+        0.054999999701976776,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Obsidian pedestal Orange",
+      "color": [
+        0.02500000037252903,
+        0.03500000014901161,
+        0.054999999701976776,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Obsidian pedestal Turquoise",
+      "color": [
+        0.02500000037252903,
+        0.03500000014901161,
+        0.054999999701976776,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Obsidian pedestal Violet",
+      "color": [
+        0.02500000037252903,
+        0.03500000014901161,
+        0.054999999701976776,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Rose Blossom bright emblems",
+      "color": [
+        1.0,
+        0.30880001187324524,
+        0.5392000079154968,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Rose Blossom magic veins",
+      "color": [
+        1.0,
+        0.03999999910593033,
+        0.36000001430511475,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Rose Blossom obsidian",
+      "color": [
+        0.1080000028014183,
+        0.02160000056028366,
+        0.05040000006556511,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Rose Blossom petals",
+      "color": [
+        1.0,
+        0.23199999332427979,
+        0.4880000054836273,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Rose Blossom radiant crystal",
+      "color": [
+        1.0,
+        0.2800000011920929,
+        0.5199999809265137,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Rose Blossom swirling magic",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "OUTPUT_MATERIAL",
+        "EMISSION",
+        "TEX_COORD",
+        "SEPXYZ",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "VALUE",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "TEX_NOISE",
+        "MATH",
+        "VALTORGB"
+      ]
+    },
+    {
+      "name": "Rose Blossom textured stone",
+      "color": [
+        0.2549999952316284,
+        0.043800000101327896,
+        0.11420000344514847,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP"
+      ]
+    },
+    {
+      "name": "Solar Gold bright emblems",
+      "color": [
+        1.0,
+        0.7839999794960022,
+        0.28360000252723694,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Solar Gold magic veins",
+      "color": [
+        1.0,
+        0.699999988079071,
+        0.004999999888241291,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Solar Gold obsidian",
+      "color": [
+        0.1080000028014183,
+        0.08100000023841858,
+        0.018449999392032623,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Solar Gold radiant crystal",
+      "color": [
+        1.0,
+        0.7749999761581421,
+        0.2537499964237213,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Solar Gold swirling magic",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "OUTPUT_MATERIAL",
+        "EMISSION",
+        "TEX_COORD",
+        "SEPXYZ",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "VALUE",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "TEX_NOISE",
+        "MATH",
+        "VALTORGB"
+      ]
+    },
+    {
+      "name": "Solar Gold textured stone",
+      "color": [
+        0.2549999952316284,
+        0.1889999955892563,
+        0.03610000014305115,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP"
+      ]
+    },
+    {
+      "name": "Starlight silver cyan",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Starlight silver cyan Emerald",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Starlight silver cyan Golden Yellow",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Starlight silver cyan Hot Pink",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Starlight silver cyan Orange",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Starlight silver cyan Turquoise",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Starlight silver cyan Violet",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Transparent icy quartz.001",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "VOLUME_ABSORPTION"
+      ]
+    },
+    {
+      "name": "Transparent icy quartz.001 Emerald",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "VOLUME_ABSORPTION"
+      ]
+    },
+    {
+      "name": "Transparent icy quartz.001 Golden Yellow",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "VOLUME_ABSORPTION"
+      ]
+    },
+    {
+      "name": "Transparent icy quartz.001 Hot Pink",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "VOLUME_ABSORPTION"
+      ]
+    },
+    {
+      "name": "Transparent icy quartz.001 Orange",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "VOLUME_ABSORPTION"
+      ]
+    },
+    {
+      "name": "Transparent icy quartz.001 Turquoise",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "VOLUME_ABSORPTION"
+      ]
+    },
+    {
+      "name": "Transparent icy quartz.001 Violet",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "VOLUME_ABSORPTION"
+      ]
+    },
+    {
+      "name": "Verdant Nature bright emblems",
+      "color": [
+        0.323199987411499,
+        1.0,
+        0.36640000343322754,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Verdant Nature magic veins",
+      "color": [
+        0.05999999865889549,
+        1.0,
+        0.11999999731779099,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Verdant Nature obsidian",
+      "color": [
+        0.023399999365210533,
+        0.1080000028014183,
+        0.02879999950528145,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Verdant Nature petals",
+      "color": [
+        0.24799999594688416,
+        1.0,
+        0.29600000381469727,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Verdant Nature radiant crystal",
+      "color": [
+        0.29499998688697815,
+        1.0,
+        0.3400000035762787,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ]
+    },
+    {
+      "name": "Verdant Nature swirling magic",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        "OUTPUT_MATERIAL",
+        "EMISSION",
+        "TEX_COORD",
+        "SEPXYZ",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "VALUE",
+        "MATH",
+        "MATH",
+        "MATH",
+        "MATH",
+        "TEX_NOISE",
+        "MATH",
+        "VALTORGB"
+      ]
+    },
+    {
+      "name": "Verdant Nature textured stone",
+      "color": [
+        0.04820000007748604,
+        0.2549999952316284,
+        0.061400000005960464,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP"
+      ]
+    },
+    {
+      "name": "Weathered blue basalt",
+      "color": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.14000000059604645,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "Weathered blue basalt Emerald",
+      "color": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.14000000059604645,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "Weathered blue basalt Golden Yellow",
+      "color": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.14000000059604645,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "Weathered blue basalt Hot Pink",
+      "color": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.14000000059604645,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "Weathered blue basalt Orange",
+      "color": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.14000000059604645,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "Weathered blue basalt Turquoise",
+      "color": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.14000000059604645,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "Weathered blue basalt Violet",
+      "color": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.14000000059604645,
+        1.0
+      ],
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "BUMP"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+std = "roblox"
+exclude = ["src/serverPackages/*"]
+
+[lints]
+roblox_incorrect_roact_usage = "allow"

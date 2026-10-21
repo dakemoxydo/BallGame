@@ -1,0 +1,622 @@
+client/AdminPanel.luau|TypeError|<type-expression>
+client/AdminPanel.luau|TypeError|Expected this to be exactly but got caused by: Property 'value' is not compatible. Expected this to be exactly 'number', but got 'string'
+client/CollectorUI/Components.luau|TypeError|Expected this to be 'Color3', but got 'UDim2'
+client/CollectorUI/Components.luau|TypeError|Expected this to be 'Color3', but got 'boolean'
+client/CollectorUI/Components.luau|TypeError|Expected this to be 'Color3', but got 'number'
+client/CollectorUI/Components.luau|TypeError|Expected this to be exactly 'Theme' from 'c:\Users\dakem\Documents\RobloxGames\ball\RojoTest\src\client\CollectorUI\Theme.luau [game/StarterPlayer/StarterPlayerScripts/Client/CollectorUI/Theme]', but got 'Theme' from 'c:\Users\dakem\Documents\RobloxGames\ball\RojoTest\src\client\CollectorUI\Theme.luau [game/StarterPlayer/StarterPlayerScripts/Client/CollectorUI/Theme]' caused by: Property 'Motion' is not compatible. Expected this to be exactly but got caused by: Property 'DampingRatio' is not compatible. Expected this to be exactly 'boolean', but got 'number'
+client/CollectorUI/Components.luau|TypeError|Expected this to be exactly but got caused by: Property 'createSpring' is not compatible. Expected this to be exactly but got caused by: Argument #2 type is not compatible. Expected this to be exactly but got caused by: None of the union options are compatible. For example: Expected this to be exactly but got caused by: Property 'dampingRatio' is not compatible. Expected this to be exactly 'number?', but got 'T' caused by: None of the union options are compatible. For example: Expected this to be exactly 'number', but got 'T'
+client/CollectorUI/Components.luau|TypeError|Expected this to be exactly but got caused by: Property 'useState' is not compatible. Expected this to be exactly but got caused by: Return #1 type is not compatible. Expected this to be exactly 'T', but got 'nil'
+client/CollectorUI/Components.luau|TypeError|Expected type table, got 'nil' instead
+client/CollectorUI/Components.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 't'
+client/CollectorUI/Components.luau|TypeError|Unknown type used in .. operation; consider adding a type annotation to 'p'
+client/CollectorUI/Screens.luau|TypeError|Argument count mismatch. Function 'button' expects 10 arguments, but only 7 are specified
+client/CollectorUI/Screens.luau|TypeError|Argument count mismatch. Function 'button' expects 10 arguments, but only 8 are specified
+client/CollectorUI/Screens.luau|TypeError|Argument count mismatch. Function 'button' expects 10 arguments, but only 9 are specified
+client/CollectorUI/Screens.luau|TypeError|Argument count mismatch. Function 'label' expects 7 arguments, but only 6 are specified
+client/CollectorUI/Screens.luau|TypeError|Argument count mismatch. Function 'p.Request' expects 1 argument, but 2 are specified
+client/CollectorUI/Screens.luau|TypeError|Argument count mismatch. Function 'p.Request' expects 2 arguments, but only 1 is specified
+client/CollectorUI/Screens.luau|TypeError|Expected this to be '((nil) -> nil)?', but got 'string' caused by: None of the union options are compatible. For example: Expected this to be '(nil) -> nil', but got 'string'
+client/CollectorUI/Screens.luau|TypeError|Expected this to be 'Color3', but got 'string'
+client/CollectorUI/Screens.luau|TypeError|Expected this to be 'number', but got 'unknown'
+client/CollectorUI/Screens.luau|TypeError|Expected this to be 'string', but got 'Color3'
+client/CollectorUI/Screens.luau|TypeError|Type 'unknown' does not have key 'boost'
+client/CollectorUI/Screens.luau|TypeError|Type 'unknown' does not have key 'id'
+client/CollectorUI/Screens.luau|TypeError|Type 'unknown' does not have key 'name'
+client/CollectorUI/Screens.luau|TypeError|Type 'unknown' does not have key 'rarity'
+client/CollectorUI/Screens.luau|TypeError|Type 'unknown' does not have key 'uid'
+client/CollectorUI/Screens.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'h'
+client/CollectorUI/Screens.luau|TypeError|Unknown type used in .. operation; consider adding a type annotation to 'item'
+client/CollectorUI/createHooks.luau|CommentDirective|Comment directive with the type checking mode has already been used
+client/CollectorUI/createHooks.luau|TypeError|Expected this to be '() -> ()', but got '<T, U>(T, U) -> ()' caused by: Argument count mismatch. Function expects 2 arguments, but none are specified
+client/CollectorUI/createHooks.luau|TypeError|Expected this to be '() -> ()', but got '<T, U>(T, U) -> ()'; different number of generic type parameters
+client/CollectorUI/createHooks.luau|TypeError|Expected this to be '() -> ()', but got '<T>(T, {+ KeyCode: *error-type*, UserInputType: *error-type* +}) -> ()' caused by: Argument count mismatch. Function expects 2 arguments, but none are specified
+client/CollectorUI/createHooks.luau|TypeError|Expected this to be '() -> ()', but got '<T>(T, {+ KeyCode: *error-type*, UserInputType: *error-type* +}) -> ()'; different number of generic type parameters
+client/CollectorUI/createHooks.luau|TypeError|Expected this to be 'nil', but got '<type>'
+client/CollectorUI/createHooks.luau|TypeError|Expected this to be 'nil', but got 'T'
+client/CollectorUI/createHooks.luau|TypeError|Expected this to be 'nil', but got 'number'
+client/CollectorUI/createHooks.luau|TypeError|Expected this to be 'nil', but got 'string'
+client/CollectorUI/createHooks.luau|TypeError|Expected this to be exactly '<type>', but got '<type>' caused by: Property '[indexer value]' is not compatible. Expected this to be exactly 'T', but got 'boolean'
+client/CollectorUI/createHooks.luau|TypeError|Expected type table, got 'nil' instead
+client/CollectorUI/createHooks.luau|TypeError|Not all codepaths in this function return '() -> ()'.
+client/CollectorUI/createHooks.luau|TypeError|Type 'nil' does not have key 'blocked'
+client/CollectorUI/createHooks.luau|TypeError|Type 'nil' does not have key 'destroy'
+client/CollectorUI/createHooks.luau|TypeError|Type 'nil' does not have key 'focus'
+client/CollectorUI/createHooks.luau|TypeError|Type 'nil' does not have key 'hover'
+client/CollectorUI/createHooks.luau|TypeError|Type 'nil' does not have key 'onChange'
+client/CollectorUI/createHooks.luau|TypeError|Type 'nil' does not have key 'onComplete'
+client/CollectorUI/createHooks.luau|TypeError|Type 'nil' does not have key 'pressed'
+client/CollectorUI/createHooks.luau|TypeError|Type 'nil' does not have key 'setGoal'
+client/CollectorUI/createHooks.luau|TypeError|Type 'nil' does not have key 'target'
+client/CollectorUI/init.luau|TypeError|Expected this to be 'UDim2', but got 'number'
+client/CollectorUI/init.luau|TypeError|Expected this to be 'nil', but got '('a) -> ()'
+client/CollectorUI/init.luau|TypeError|Expected this to be 'nil', but got 'number'
+client/CollectorUI/init.luau|TypeError|Expected this to be 'number', but got 'boolean'
+client/CollectorUI/init.luau|TypeError|Key 'Destroyed' not found in table '<type>'
+client/CollectorUI/init.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'self'
+client/Controllers/AudioEffects.luau|TypeError|Expected this to be 'number', but got 'number?'
+client/Controllers/BallHolder.luau|TypeError|Value of type 'Model?' could be nil
+client/Controllers/GameplayController.luau|TypeError|Expected this to be exactly but got caused by: Property 'open' is not compatible. Expected this to be exactly but got caused by: Argument #1 type is not compatible. Expected this to be exactly 'string', but got 'T'
+client/Controllers/GameplayController.luau|TypeError|Expected this to be exactly but got caused by: Property 'send' is not compatible. Expected this to be exactly but got caused by: Argument #1 type is not compatible. Expected this to be exactly 'string', but got 'nil'
+client/Controllers/HudBuilder.luau|TypeError|Expected this to be 'Color3', but got 'string'
+client/Controllers/HudBuilder.luau|TypeError|Expected this to be 'string', but got 'Color3'
+client/Controllers/HudBuilder.luau|TypeError|Key 'Caption' not found in external type 'TextButton'
+client/Controllers/HudKit.luau|TypeError|Expected this to be 'Color3', but got 'Color3?'
+client/Controllers/HudPanels.luau|TypeError|Expected this to be 'Vector2', but got 'Vector3'
+client/Controllers/HudPanels.luau|TypeError|Expected this to be 'number', but got 'boolean'
+client/Controllers/HudPanels.luau|TypeError|Key 'Position' not found in external type 'Instance'
+client/Controllers/HudPanels.luau|TypeError|Value of type '(() -> ())?' could be nil
+client/Controllers/PetFollowers.luau|TypeError|Expected this to be 'number', but got 'number | unknown' caused by: Not all union options are compatible. Expected this to be 'number', but got 'unknown'
+client/Controllers/WorldVisuals.luau|TypeError|Expected this to be 'Vector3', but got 'unknown'
+client/Controllers/WorldVisuals.luau|TypeError|Expected this to be 'number', but got 'number | unknown' caused by: Not all union options are compatible. Expected this to be 'number', but got 'unknown'
+client/Controllers/WorldVisuals.luau|TypeError|Key 'Position' not found in external type 'Instance'
+client/Controllers/WorldVisuals.luau|TypeError|Type 'unknown' does not have key 'Position'
+client/FlightVisuals.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'info'
+client/Icons.luau|TypeError|Expected this to be 'ImageLabel', but got 'Frame'
+client/Icons.luau|TypeError|Types 'a and Color3 cannot be compared with == because they do not have the same metatable
+client/Icons.luau|TypeError|Types Color3 and nil cannot be compared with ~= because they do not have the same metatable
+client/Modules/HudLayout.luau|TypeError|Expected this to be exactly 'Pin', but got '<type>' caused by: Property 'offset' is not compatible. Expected this to be exactly 'number', but got 'number?'
+client/NativeIcons.luau|TypeError|Argument count mismatch. Function 'shape' expects 8 arguments, but only 7 are specified
+client/NativeIcons.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'x'
+client/NativeIcons.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'y'
+client/NativeIcons.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'h'
+client/NativeIcons.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'w'
+loading/init.client.luau|TypeError|Argument count mismatch. Function 'label' expects 5 arguments, but only 4 are specified
+loading/init.client.luau|TypeError|Function only returns 1 value, but 2 are required here
+loading/init.client.luau|TypeError|Type T where T = {- IsA: (T, b...) -, string) -> ('a} cannot be compared with ScreenGui
+server/AdminDiagnostics.luau|TypeError|Expected this to be 'Instance', but got '<type>' caused by: Property 'FindFirstChild' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be '<type>', but got 'Instance?' caused by: Not all union options are compatible. Key 'Position' not found in external type 'Instance'
+server/AdminDiagnostics.luau|TypeError|Type 'unknown' does not have key 'id'
+server/AdminDiagnostics.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'front'
+server/AdminDiagnostics.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'p'
+server/AdminService.luau|TypeError|Expected this to be 'nil', but got '<type>'
+server/AdminService.luau|TypeError|Expected this to be 'number', but got 'never | T where T = {+ amount: any, count: never | T, egg: string, key: any, pet: any +}' caused by: Not all union options are compatible. Expected this to be 'number', but got '<type>'
+server/AdminService.luau|TypeError|Expected this to be exactly '<type>', but got 'self' caused by: Property 'context' is not compatible.
+server/AdminService.luau|TypeError|Expected this to be exactly '<type>', but got 'self' caused by: Property 'logs' is not compatible. Expected this to be exactly but got caused by: Property '[indexer value]' is not compatible. Expected this to be exactly but got caused by: Property 'kind' is not compatible. Expected this to be exactly 'T', but got 'string'
+server/AdminService.luau|TypeError|Function only returns 2 values, but 3 are required here
+server/AdminService.luau|TypeError|Key 'publish' not found in table '<type>'
+server/AdminService.luau|TypeError|Type T where T = never | {- amount: 'a, count: T, egg: string, key: 'b, pet: 'c -} cannot be compared with number
+server/AdminService.luau|TypeError|Type T where T = {- amount: any, count: never | T, egg: string, key: any, pet: any -} cannot be compared with "Lobby"
+server/AdminService.luau|TypeError|Type T where T = {- amount: any, count: never | T, egg: string, key: any, pet: any -} cannot be compared with "Sakura"
+server/AdminService.luau|TypeError|Type T where T = {- amount: any, count: never | T, egg: string, key: any, pet: any -} cannot be compared with "World1"
+server/AdminService.luau|TypeError|Type T where T = {- amount: any, count: never | T, egg: string, key: any, pet: any -} cannot be compared with "World2"
+server/AdminService.luau|TypeError|Type T where T = {- amount: any, count: never | T, egg: string, key: any, pet: any -} cannot be compared with "max"
+server/AdminService.luau|TypeError|Type never | T where T = {- amount: 'a, count: never | T, egg: string, key: 'b, pet: 'c -} cannot be compared with number
+server/AdminService.luau|TypeError|Unknown type used in .. operation; consider adding a type annotation to 'l'
+server/AdminService.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'root'
+server/BallStand.luau|TypeError|Expected this to be '<type>', but got 'Part' caused by: Property 'GetChildren' is not compatible. Expected this to be but got caused by: Argument #1 type is not compatible. Key 'Color' not found in external type 'Instance'
+server/BallStand.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Key 'CFrame' not found in external type 'Instance'
+server/BallStand.luau|TypeError|Expected type table, got 'nil' instead
+server/BallStandStyle.luau|TypeError|Argument count mismatch. Function 'part' expects 5 arguments, but only 4 are specified
+server/BallStandStyle.luau|TypeError|Argument count mismatch. Function 'sign' expects 4 arguments, but only 3 are specified
+server/BallStandStyle.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got '<type>' caused by: Property 'FindFirstChild' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be '<type>', but got 'Instance?' caused by: Not all union options are compatible. Key 'Color' not found in external type 'Instance'
+server/BallStandStyle.luau|TypeError|Expected this to be 'number', but got 'number?'
+server/BallStandStyle.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'p'
+server/BallStandStyle.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'top'
+server/BallStandStyle.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'p'
+server/BallStandStyle.luau|TypeError|Unknown type used in .. operation; consider adding a type annotation to 'p'
+server/BallStandStyle.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'p'
+server/BallStandStyle.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'top'
+server/BallStandStyle.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'upper'
+server/BiomeLengthExpansion.luau|TypeError|<type-expression>
+server/BiomeLengthExpansion.luau|TypeError|Argument count mismatch. Function 'movePart' expects 3 arguments, but only 2 are specified
+server/BiomeLengthExpansion.luau|TypeError|Key 'PivotTo' not found in table '<type>'
+server/BiomeLengthExpansion.luau|TypeError|Key 'Position' not found in external type 'Vector3'
+server/BiomeLengthExpansion.luau|TypeError|Type "LabelAnchor" | *error-type* cannot be compared with "BiomeDecorStem"
+server/BiomeLengthExpansion.luau|TypeError|Type "LabelAnchor" | *error-type* cannot be compared with "CactusArm"
+server/BiomeLengthExpansion.luau|TypeError|Type "LabelAnchor" | *error-type* cannot be compared with "CandyCrown"
+server/BiomeLengthExpansion.luau|TypeError|Type "LabelAnchor" | *error-type* cannot be compared with "CrystalSatellite"
+server/BiomeLengthExpansion.luau|TypeError|Type "LabelAnchor" | *error-type* cannot be compared with "MoonOrb"
+server/BiomeLengthExpansion.luau|TypeError|Type "LabelAnchor" | *error-type* cannot be compared with "PalmFrond"
+server/BiomeLengthExpansion.luau|TypeError|Type "WallPanel_Surface" | *error-type* cannot be compared with "CliffShoulder_Surface"
+server/BiomeLengthExpansion.luau|TypeError|Type "WallPanel_Surface" | *error-type* cannot be compared with "MesaCap_Surface"
+server/BiomeLengthExpansion.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'p'
+server/BiomeLengthExpansion.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'first'
+server/BiomeLengthExpansion.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'p'
+server/BiomeLengthExpansion.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'first'
+server/BiomeLengthExpansion.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'z'
+server/BiomeLengthExpansion.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'first'
+server/CandyBeachScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 4 are specified
+server/CandyBeachScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 5 are specified
+server/CandyBeachScenery.luau|TypeError|Argument count mismatch. Function 'cylinder' expects 6 arguments, but only 5 are specified
+server/CandyBeachScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 6 arguments, but only 4 are specified
+server/CandyBeachScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 6 arguments, but only 5 are specified
+server/CandyBeachScenery.luau|TypeError|Expected this to be '<type>', but got 'Model' caused by: Property 'Parent' is not compatible. Expected this to be 'Model', but got 'Instance?' caused by: Not all union options are compatible. Expected this to be 'Model', but got 'Instance'
+server/CandyBeachScenery.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got '<type>' caused by: Property 'GetChildren' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be exactly '<type>', but got '<type>' caused by: Property '[indexer value]' is not compatible. Expected this to be exactly '<type>', but got 'Instance' caused by: Property 'IsA' is not compatible. Expected this to be exactly but got caused by: Argument #1 type is not compatible. Key 'Name' not found in external type 'Object'
+server/CandyBeachScenery.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'radius'
+server/CandyBeachScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'a'
+server/CandyBeachScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'lower'
+server/CandyBeachScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'p'
+server/CandyBeachScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'pos'
+server/CandyBeachScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'upper'
+server/CandyBeachScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'a'
+server/CandyBeachScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'p'
+server/CandyBeachScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'upper'
+server/CandyBeachScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'lower'
+server/CandyBeachScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'p'
+server/CandyBeachScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'upper'
+server/DesertDunesScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 4 are specified
+server/DesertDunesScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 5 are specified
+server/DesertDunesScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 6 arguments, but only 5 are specified
+server/DesertDunesScenery.luau|TypeError|Expected this to be '<type>', but got 'Model' caused by: Property 'Parent' is not compatible. Expected this to be 'Model', but got 'Instance?' caused by: Not all union options are compatible. Expected this to be 'Model', but got 'Instance'
+server/DesertDunesScenery.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got '<type>' caused by: Property 'GetChildren' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be exactly '<type>', but got '<type>' caused by: Property '[indexer value]' is not compatible. Expected this to be exactly '<type>', but got 'Instance' caused by: Property 'IsA' is not compatible. Expected this to be exactly but got caused by: Argument #1 type is not compatible. Key 'Name' not found in external type 'Object'
+server/DesertDunesScenery.luau|TypeError|Expected this to be 'number', but got 'number?'
+server/DesertDunesScenery.luau|TypeError|Key 'CFrame' not found in external type 'Instance'
+server/DesertDunesScenery.luau|TypeError|Unknown type used in % operation; consider adding a type annotation to 'index'
+server/DesertDunesScenery.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'index'
+server/DesertDunesScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'a'
+server/DesertDunesScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'lower'
+server/DesertDunesScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'p'
+server/DesertDunesScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'pos'
+server/DesertDunesScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'upper'
+server/DesertDunesScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'a'
+server/DesertDunesScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'p'
+server/DesertDunesScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'upper'
+server/DesertDunesScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'lower'
+server/DesertDunesScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'p'
+server/DesertDunesScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'upper'
+server/EmberRiverScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 4 are specified
+server/EmberRiverScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 5 are specified
+server/EmberRiverScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 6 arguments, but only 4 are specified
+server/EmberRiverScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 6 arguments, but only 5 are specified
+server/EmberRiverScenery.luau|TypeError|Expected this to be '<type>', but got 'Model' caused by: Property 'FindFirstChild' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be '<type>', but got 'Instance?' caused by: Not all union options are compatible. Key 'GetPivot' not found in external type 'Instance'
+server/EmberRiverScenery.luau|TypeError|Expected this to be '<type>', but got 'Model' caused by: Property 'GetAttribute' is not compatible. Expected this to be but got caused by: Argument #1 type is not compatible. Expected this to be 'Instance', but got '<type>' caused by: Property 'FindFirstChild' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be '<type>', but got 'Instance?' caused by: Not all union options are compatible. Key 'GetPivot' not found in external type 'Instance'
+server/EmberRiverScenery.luau|TypeError|Expected this to be '<type>', but got 'Model' caused by: Property 'Parent' is not compatible. Expected this to be 'Model', but got 'Instance?' caused by: Not all union options are compatible. Expected this to be 'Model', but got 'Instance'
+server/EmberRiverScenery.luau|TypeError|Expected this to be '<type>', but got 'Model' caused by: Property 'SetAttribute' is not compatible. Expected this to be but got caused by: Argument #1 type is not compatible. Expected this to be 'Instance', but got '<type>' caused by: Property 'FindFirstChild' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be '<type>', but got 'Instance?' caused by: Not all union options are compatible. Key 'GetPivot' not found in external type 'Instance'
+server/EmberRiverScenery.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got '<type>' caused by: Property 'FindFirstChild' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be '<type>', but got 'Instance?' caused by: Not all union options are compatible. Expected this to be '<type>', but got 'Instance' caused by: Property 'FindFirstChild' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be '<type>', but got 'Instance?' caused by: Not all union options are compatible. Key 'GetPivot' not found in external type 'Instance'
+server/EmberRiverScenery.luau|TypeError|Expected this to be 'number', but got 'number?'
+server/EmberRiverScenery.luau|TypeError|Unknown type used in * operation
+server/EmberRiverScenery.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'index'
+server/EmberRiverScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'a'
+server/EmberRiverScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'lower'
+server/EmberRiverScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'p'
+server/EmberRiverScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'pos'
+server/EmberRiverScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'upper'
+server/EmberRiverScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'a'
+server/EmberRiverScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'p'
+server/EmberRiverScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'upper'
+server/EmberRiverScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'lower'
+server/EmberRiverScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'p'
+server/EmberRiverScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'upper'
+server/EnvironmentRefresh.luau|TypeError|Argument count mismatch. Function 'part' expects 8 arguments, but only 6 are specified
+server/EnvironmentRefresh.luau|TypeError|Argument count mismatch. Function 'part' expects 8 arguments, but only 7 are specified
+server/EnvironmentRefresh.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Key 'Color' not found in external type 'Instance'
+server/EnvironmentRefresh.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Key 'Lobby' not found in external type 'Instance'
+server/EnvironmentRefresh.luau|TypeError|Expected this to be 'Vector3', but got 'number'
+server/EnvironmentRefresh.luau|TypeError|Expected type table, got 'Decal | Texture' instead
+server/EnvironmentRefresh.luau|TypeError|Key 'Anchored' not found in external type 'Instance'
+server/EnvironmentRefresh.luau|TypeError|Key 'BottomSurface' not found in external type 'Instance'
+server/EnvironmentRefresh.luau|TypeError|Key 'CFrame' not found in external type 'Instance'
+server/EnvironmentRefresh.luau|TypeError|Key 'CanCollide' not found in external type 'Instance'
+server/EnvironmentRefresh.luau|TypeError|Key 'CanQuery' not found in external type 'Instance'
+server/EnvironmentRefresh.luau|TypeError|Key 'CanTouch' not found in external type 'Instance'
+server/EnvironmentRefresh.luau|TypeError|Key 'Color' not found in external type 'Instance'
+server/EnvironmentRefresh.luau|TypeError|Key 'Material' not found in external type 'Instance'
+server/EnvironmentRefresh.luau|TypeError|Key 'Size' not found in external type 'Instance'
+server/EnvironmentRefresh.luau|TypeError|Key 'TopSurface' not found in external type 'Instance'
+server/EnvironmentRefresh.luau|TypeError|Key 'Transparency' not found in external type 'Instance'
+server/EnvironmentRefresh.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'h'
+server/EnvironmentRefresh.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'map'
+server/EnvironmentRefresh.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'variant'
+server/EnvironmentRefresh.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'a'
+server/EnvironmentRefresh.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'b'
+server/EnvironmentRefresh.luau|TypeError|Unknown type used in .. operation; consider adding a type annotation to 'map'
+server/ExplorerOutpost.luau|TypeError|Argument count mismatch. Function 'part' expects 6 arguments, but only 4 are specified
+server/ExplorerOutpost.luau|TypeError|Argument count mismatch. Function 'part' expects 6 arguments, but only 5 are specified
+server/ExplorerOutpost.luau|TypeError|Argument count mismatch. Function 'shape' expects 5 arguments, but only 4 are specified
+server/ExplorerOutpost.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'a'
+server/ExplorerOutpost.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'pos'
+server/ExplorerOutpost.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'b'
+server/ExplorerOutpost.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'map'
+server/FlightStreaming.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'info'
+server/FootballPitches.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 6 are specified
+server/FootballPitches.luau|TypeError|Expected this to be 'Color3', but got 'boolean'
+server/FootballPitches.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got '<type>' caused by: Property 'FindFirstChild' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be '<type>', but got 'Instance?'
+server/FootballPitches.luau|TypeError|Expected this to be 'number', but got 'number?'
+server/FootballPitches.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'surface'
+server/FootballPitches.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'length'
+server/FootballPitches.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'surface'
+server/ImportedEggs.luau|TypeError|Argument count mismatch. Function 'Content.fromUri' expects 1 argument, but 2 are specified
+server/ImportedEggs.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'labelAnchor'
+server/ImportedEggs.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'ring'
+server/ImportedEggs.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'ring'
+server/ImportedFields.luau|TypeError|Expected this to be '<type>', but got 'number'
+server/ImportedFields.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Key 'Foundation' not found in external type 'Instance'
+server/ImportedFields.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'source'
+server/ImportedFields.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'v'
+server/ImportedFields.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'origin'
+server/ImportedFields.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'strip'
+server/ImportedFields.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'source'
+server/ImportedFields.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'strip'
+server/LobbyDecorCleanup.luau|TypeError|Unknown type used in - operation
+server/LobbyDecorCleanup.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'map'
+server/LobbyFlowers.luau|TypeError|Argument count mismatch. Function 'part' expects 6 arguments, but only 5 are specified
+server/LobbyFlowers.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got '<type>' caused by: Property 'GetChildren' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be exactly '<type>', but got '<type>' caused by: Property '[indexer value]' is not compatible. Key 'Color' not found in external type 'Instance'
+server/LobbyFlowers.luau|TypeError|Key 'ThrowingApron' not found in external type 'Instance'
+server/LobbyFlowers.luau|TypeError|Unknown type used in .. operation; consider adding a type annotation to 'map'
+server/LobbyFlowers.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'stem'
+server/LobbyLayoutTwoAxes.luau|TypeError|Argument count mismatch. Function 'contains' expects 3 arguments, but only 2 are specified
+server/LobbyLayoutTwoAxes.luau|TypeError|Argument count mismatch. Function 'part' expects 9 arguments, but only 7 are specified
+server/LobbyLayoutTwoAxes.luau|TypeError|Cannot call a value of type {- GetBoundingBox: (T) -> (T, U...), GetPivot: (T) -> (V, W...), PivotTo: (T, any) -> (X...), PrimaryPart: Y, StartingPad: {+ Position: any +}, TrainingStrip: {+ Position: {+ Z: Z +} +}, WorldPivot: T -} where T = {+ GetBoundingBox: (T) -> (T, U...), GetPivot: (T) -> (V, W...), PivotTo: (T, any) -> (X...), PrimaryPart: Y, StartingPad: {+ Position: any +}, TrainingStrip: {+ Position: {+ Z: Z +} +}, WorldPivot: T +} ; T = T
+server/LobbyLayoutTwoAxes.luau|TypeError|Expected this to be '<type>', but got 'Model' caused by: Property 'GetChildren' is not compatible. Expected this to be but got caused by: Argument #1 type is not compatible. Key 'CFrame' not found in external type 'Instance'
+server/LobbyLayoutTwoAxes.luau|TypeError|Expected this to be '<type>', but got 'Model' caused by: Property 'GetPivot' is not compatible. Expected this to be but got caused by: Argument #1 type is not compatible. Key 'CFrame' not found in external type 'PVInstance'
+server/LobbyLayoutTwoAxes.luau|TypeError|Expected this to be '<type>', but got 'Model' caused by: Property 'PivotTo' is not compatible. Expected this to be but got caused by: Argument #1 type is not compatible. Key 'CFrame' not found in external type 'PVInstance'
+server/LobbyLayoutTwoAxes.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Key 'Lobby' not found in external type 'Instance'
+server/LobbyLayoutTwoAxes.luau|TypeError|Expected this to be 'boolean', but got 'nil'
+server/LobbyLayoutTwoAxes.luau|TypeError|Expected this to be 'number | string', but got 'true'; none of the union options are compatible
+server/LobbyLayoutTwoAxes.luau|TypeError|Expected this to be 'number', but got 'boolean'
+server/LobbyLayoutTwoAxes.luau|TypeError|Expected this to be 'true', but got 'boolean'
+server/LobbyLayoutTwoAxes.luau|TypeError|Expected this to be exactly '<type>', but got '<type>' caused by: Property '[indexer value]' is not compatible. Expected this to be exactly 'boolean', but got 'number'
+server/LobbyLayoutTwoAxes.luau|TypeError|Key 'CFrame' not found in external type 'Model'
+server/LobbyLayoutTwoAxes.luau|TypeError|Key 'Position' not found in external type 'Model'
+server/LobbyLayoutTwoAxes.luau|TypeError|Unknown type used in % operation; consider adding a type annotation to 'T'
+server/LobbyLayoutTwoAxes.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'delta'
+server/LobbyLayoutTwoAxes.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'lobby'
+server/LobbyLayoutTwoAxes.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'T'
+server/LobbyLayoutTwoAxes.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'o'
+server/LobbyLayoutTwoAxes.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'T'
+server/LobbyLayoutTwoAxes.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'o'
+server/LobbyLayoutTwoAxes.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'site'
+server/LobbyLayoutTwoAxes.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'o'
+server/LobbyLayoutTwoAxes.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'size'
+server/LobbyPortalFacing.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'map'
+server/LobbyPortalFacing.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'a'
+server/LobbyPortalFacing.luau|TypeError|Unknown type used in < comparison; consider adding a type annotation to 'a'
+server/LobbyRankings.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Key 'Lobby' not found in external type 'Instance'
+server/LobbyRankings.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'map'
+server/LobbyRankings.luau|TypeError|Unknown type used in + operation
+server/MapBuilder.luau|TypeError|Argument count mismatch. Function 'part' expects 6 arguments, but only 5 are specified
+server/MapBuilder.luau|TypeError|Expected this to be 'number', but got 'number?'
+server/MapBuilder.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'y'
+server/MapBuilder.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'length'
+server/MapBuilder.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'width'
+server/MapBuilder.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'x'
+server/MapBuilder.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'y'
+server/MapBuilder.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'z'
+server/MapBuilder.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'length'
+server/MapBuilder.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'width'
+server/MapPolish.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 5 are specified
+server/MapPolish.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 6 are specified
+server/MapPolish.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got '<type>' caused by: Property 'IsA' is not compatible. Expected this to be but got caused by: Argument #1 type is not compatible. Key 'Clone' not found in external type 'Object'
+server/MapPolish.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Key 'Color' not found in external type 'Instance'
+server/MapPolish.luau|TypeError|Expected this to be 'number', but got 'number?'
+server/MapPolish.luau|TypeError|Expected this to be 'number', but got 'string'
+server/MapPolish.luau|TypeError|Key 'Anchored' not found in external type 'Instance'
+server/MapPolish.luau|TypeError|Key 'BottomSurface' not found in external type 'Instance'
+server/MapPolish.luau|TypeError|Key 'CFrame' not found in external type 'Instance'
+server/MapPolish.luau|TypeError|Key 'CanCollide' not found in external type 'Instance'
+server/MapPolish.luau|TypeError|Key 'CanQuery' not found in external type 'Instance'
+server/MapPolish.luau|TypeError|Key 'CanTouch' not found in external type 'Instance'
+server/MapPolish.luau|TypeError|Key 'Color' not found in external type 'Instance'
+server/MapPolish.luau|TypeError|Key 'Material' not found in external type 'Instance'
+server/MapPolish.luau|TypeError|Key 'Position' not found in external type 'Instance'
+server/MapPolish.luau|TypeError|Key 'Size' not found in external type 'Instance'
+server/MapPolish.luau|TypeError|Key 'TopSurface' not found in external type 'Instance'
+server/MapPolish.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'y'
+server/MapPolish.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'part'
+server/MapPolish.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'part'
+server/MapSurfaceFix.luau|TypeError|Argument count mismatch. Function 'skin' expects 4 arguments, but only 2 are specified
+server/MapSurfaceFix.luau|TypeError|Argument count mismatch. Function 'skin' expects 4 arguments, but only 3 are specified
+server/MapSurfaceFix.luau|TypeError|Key 'TrainingZone' not found in external type 'Instance'
+server/MapSurfaceFix.luau|TypeError|Unknown type used in .. operation; consider adding a type annotation to 'p'
+server/MoonlightScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 4 are specified
+server/MoonlightScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 5 are specified
+server/MoonlightScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 4 are specified
+server/MoonlightScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 5 are specified
+server/MoonlightScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 6 are specified
+server/MoonlightScenery.luau|TypeError|Expected this to be '<type>', but got 'Model' caused by: Property 'Parent' is not compatible. Expected this to be 'Model', but got 'Instance?' caused by: Not all union options are compatible. Expected this to be 'Model', but got 'Instance'
+server/MoonlightScenery.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got '<type>' caused by: Property 'GetChildren' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be exactly '<type>', but got '<type>' caused by: Property '[indexer value]' is not compatible. Expected this to be exactly '<type>', but got 'Instance' caused by: Property 'GetDescendants' is not compatible. Expected this to be exactly but got caused by: Return type is not compatible. Expected this to be exactly '<type>', but got '<type>' caused by: Property '[indexer value]' is not compatible. Key 'Enabled' not found in external type 'Instance'
+server/MoonlightScenery.luau|TypeError|Expected this to be 'number', but got 'number?'
+server/MoonlightScenery.luau|TypeError|Key 'Anchored' not found in external type 'Instance'
+server/MoonlightScenery.luau|TypeError|Key 'BottomSurface' not found in external type 'Instance'
+server/MoonlightScenery.luau|TypeError|Key 'CFrame' not found in external type 'Instance'
+server/MoonlightScenery.luau|TypeError|Key 'CanCollide' not found in external type 'Instance'
+server/MoonlightScenery.luau|TypeError|Key 'CanQuery' not found in external type 'Instance'
+server/MoonlightScenery.luau|TypeError|Key 'CanTouch' not found in external type 'Instance'
+server/MoonlightScenery.luau|TypeError|Key 'Color' not found in external type 'Instance'
+server/MoonlightScenery.luau|TypeError|Key 'Material' not found in external type 'Instance'
+server/MoonlightScenery.luau|TypeError|Key 'Shape' not found in external type 'Instance'
+server/MoonlightScenery.luau|TypeError|Key 'Size' not found in external type 'Instance'
+server/MoonlightScenery.luau|TypeError|Key 'TopSurface' not found in external type 'Instance'
+server/MoonlightScenery.luau|TypeError|Key 'Transparency' not found in external type 'Instance'
+server/MoonlightScenery.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'index'
+server/MoonlightScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'a'
+server/MoonlightScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'lower'
+server/MoonlightScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'p'
+server/MoonlightScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'pos'
+server/MoonlightScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'upper'
+server/MoonlightScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'a'
+server/MoonlightScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'b'
+server/MoonlightScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'c'
+server/MoonlightScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'p'
+server/MoonlightScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'upper'
+server/MoonlightScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'lower'
+server/MoonlightScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'p'
+server/MoonlightScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'upper'
+server/PalmBeachScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 4 are specified
+server/PalmBeachScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 5 are specified
+server/PalmBeachScenery.luau|TypeError|Argument count mismatch. Function 'hutBox' expects 6 arguments, but only 4 are specified
+server/PalmBeachScenery.luau|TypeError|Argument count mismatch. Function 'hutBox' expects 6 arguments, but only 5 are specified
+server/PalmBeachScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 6 arguments, but only 5 are specified
+server/PalmBeachScenery.luau|TypeError|Expected this to be '<type>', but got 'Model' caused by: Property 'Parent' is not compatible. Expected this to be 'Model', but got 'Instance?' caused by: Not all union options are compatible. Expected this to be 'Model', but got 'Instance'
+server/PalmBeachScenery.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got '<type>' caused by: Property 'GetChildren' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be exactly '<type>', but got '<type>' caused by: Property '[indexer value]' is not compatible. Expected this to be exactly '<type>', but got 'Instance' caused by: Property 'IsA' is not compatible. Expected this to be exactly but got caused by: Argument #1 type is not compatible. Key 'Name' not found in external type 'Object'
+server/PalmBeachScenery.luau|TypeError|Expected this to be 'number', but got 'number?'
+server/PalmBeachScenery.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'index'
+server/PalmBeachScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'a'
+server/PalmBeachScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'lower'
+server/PalmBeachScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'p'
+server/PalmBeachScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'pos'
+server/PalmBeachScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'upper'
+server/PalmBeachScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'a'
+server/PalmBeachScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'p'
+server/PalmBeachScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'upper'
+server/PalmBeachScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'lower'
+server/PalmBeachScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'p'
+server/PalmBeachScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'upper'
+server/PolarExpeditionScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 4 are specified
+server/PolarExpeditionScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 5 are specified
+server/PolarExpeditionScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 4 are specified
+server/PolarExpeditionScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 5 are specified
+server/PolarExpeditionScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 6 are specified
+server/PolarExpeditionScenery.luau|TypeError|Expected this to be '<type>', but got 'Model' caused by: Property 'Parent' is not compatible. Expected this to be 'Model', but got 'Instance?' caused by: Not all union options are compatible. Expected this to be 'Model', but got 'Instance'
+server/PolarExpeditionScenery.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got '<type>' caused by: Property 'GetChildren' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be exactly '<type>' caused by: Property '[indexer value]' is not compatible. Expected this to be exactly '<type>' caused by: Property 'FindFirstChild' is not compatible. Expected this to be exactly but got caused by: Return type is not compatible. Expected this to be exactly '<type>', but got 'Instance?' caused by: Not all union options are compatible. Key 'Position' not found in external type 'Instance'
+server/PolarExpeditionScenery.luau|TypeError|Expected this to be 'number', but got 'number?'
+server/PolarExpeditionScenery.luau|TypeError|Key 'Anchored' not found in external type 'Instance'
+server/PolarExpeditionScenery.luau|TypeError|Key 'BottomSurface' not found in external type 'Instance'
+server/PolarExpeditionScenery.luau|TypeError|Key 'CFrame' not found in external type 'Instance'
+server/PolarExpeditionScenery.luau|TypeError|Key 'CanCollide' not found in external type 'Instance'
+server/PolarExpeditionScenery.luau|TypeError|Key 'CanQuery' not found in external type 'Instance'
+server/PolarExpeditionScenery.luau|TypeError|Key 'CanTouch' not found in external type 'Instance'
+server/PolarExpeditionScenery.luau|TypeError|Key 'Color' not found in external type 'Instance'
+server/PolarExpeditionScenery.luau|TypeError|Key 'Material' not found in external type 'Instance'
+server/PolarExpeditionScenery.luau|TypeError|Key 'Shape' not found in external type 'Instance'
+server/PolarExpeditionScenery.luau|TypeError|Key 'Size' not found in external type 'Instance'
+server/PolarExpeditionScenery.luau|TypeError|Key 'TopSurface' not found in external type 'Instance'
+server/PolarExpeditionScenery.luau|TypeError|Key 'Transparency' not found in external type 'Instance'
+server/PolarExpeditionScenery.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'p'
+server/PolarExpeditionScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'a'
+server/PolarExpeditionScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'lower'
+server/PolarExpeditionScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'p'
+server/PolarExpeditionScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'pos'
+server/PolarExpeditionScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'upper'
+server/PolarExpeditionScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'a'
+server/PolarExpeditionScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'p'
+server/PolarExpeditionScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'upper'
+server/PolarExpeditionScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'lower'
+server/PolarExpeditionScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'p'
+server/PolarExpeditionScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'upper'
+server/SakuraCourtyard.luau|TypeError|Argument count mismatch. Function 'part' expects 6 arguments, but only 5 are specified
+server/SakuraCourtyard.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Key 'PortalField' not found in external type 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Argument count mismatch. Function 'blossom' expects 4 arguments, but only 3 are specified
+server/SakuraFinaleScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 4 are specified
+server/SakuraFinaleScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 5 are specified
+server/SakuraFinaleScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 4 are specified
+server/SakuraFinaleScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 5 are specified
+server/SakuraFinaleScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 6 are specified
+server/SakuraFinaleScenery.luau|TypeError|Expected this to be '<type>', but got 'Model' caused by: Property 'Parent' is not compatible. Expected this to be 'Model', but got 'Instance?' caused by: Not all union options are compatible. Expected this to be 'Model', but got 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got '<type>' caused by: Property 'GetChildren' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be exactly '<type>', but got '<type>' caused by: Property '[indexer value]' is not compatible. Key 'Enabled' not found in external type 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Expected this to be 'Model', but got '<type>' caused by: Property 'GetDescendants' is not compatible. Expected this to be but got caused by: Argument #1 type is not compatible. Key 'GetScale' not found in external type 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Expected this to be 'Model', but got '<type>' caused by: Property 'PivotTo' is not compatible. Expected this to be but got caused by: Argument #1 type is not compatible. Expected this to be 'PVInstance', but got '<type>' caused by: Property 'GetDescendants' is not compatible. Expected this to be but got caused by: Argument #1 type is not compatible. Key 'GetScale' not found in external type 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Key 'Anchored' not found in external type 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Key 'BottomSurface' not found in external type 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Key 'CFrame' not found in external type 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Key 'CanCollide' not found in external type 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Key 'CanQuery' not found in external type 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Key 'CanTouch' not found in external type 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Key 'Color' not found in external type 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Key 'Material' not found in external type 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Key 'Shape' not found in external type 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Key 'Size' not found in external type 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Key 'TopSurface' not found in external type 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Key 'Transparency' not found in external type 'Instance'
+server/SakuraFinaleScenery.luau|TypeError|Unknown type used in % operation; consider adding a type annotation to 'index'
+server/SakuraFinaleScenery.luau|TypeError|Unknown type used in * operation
+server/SakuraFinaleScenery.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'p'
+server/SakuraFinaleScenery.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'size'
+server/SakuraFinaleScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'a'
+server/SakuraFinaleScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'lower'
+server/SakuraFinaleScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'p'
+server/SakuraFinaleScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'pos'
+server/SakuraFinaleScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'upper'
+server/SakuraFinaleScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'a'
+server/SakuraFinaleScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'p'
+server/SakuraFinaleScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'upper'
+server/SakuraFinaleScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'lower'
+server/SakuraFinaleScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'p'
+server/SakuraFinaleScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'upper'
+server/SakuraJapaneseScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 4 are specified
+server/SakuraJapaneseScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 5 are specified
+server/SakuraJapaneseScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 4 are specified
+server/SakuraJapaneseScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 5 are specified
+server/SakuraJapaneseScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 6 are specified
+server/SakuraJapaneseScenery.luau|TypeError|Expected this to be '<type>', but got 'Model' caused by: Property 'GetDescendants' is not compatible. Expected this to be but got caused by: Argument #1 type is not compatible. Expected this to be 'Instance', but got '<type>' caused by: Property 'Parent' is not compatible. Expected this to be 'Model', but got 'Instance?' caused by: Not all union options are compatible. Expected this to be 'Model', but got 'Instance'
+server/SakuraJapaneseScenery.luau|TypeError|Expected this to be '<type>', but got 'Model' caused by: Property 'Parent' is not compatible. Expected this to be 'Model', but got 'Instance?' caused by: Not all union options are compatible. Expected this to be 'Model', but got 'Instance'
+server/SakuraJapaneseScenery.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got '<type>' caused by: Property 'FindFirstChild' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be '<type>' caused by: Not all union options are compatible. Key 'BlossomBannerGarden' not found in external type 'Instance'
+server/SakuraJapaneseScenery.luau|TypeError|Key 'Anchored' not found in external type 'Instance'
+server/SakuraJapaneseScenery.luau|TypeError|Key 'BottomSurface' not found in external type 'Instance'
+server/SakuraJapaneseScenery.luau|TypeError|Key 'CFrame' not found in external type 'Instance'
+server/SakuraJapaneseScenery.luau|TypeError|Key 'CanCollide' not found in external type 'Instance'
+server/SakuraJapaneseScenery.luau|TypeError|Key 'CanQuery' not found in external type 'Instance'
+server/SakuraJapaneseScenery.luau|TypeError|Key 'CanTouch' not found in external type 'Instance'
+server/SakuraJapaneseScenery.luau|TypeError|Key 'CastShadow' not found in external type 'Instance'
+server/SakuraJapaneseScenery.luau|TypeError|Key 'Color' not found in external type 'Instance'
+server/SakuraJapaneseScenery.luau|TypeError|Key 'Material' not found in external type 'Instance'
+server/SakuraJapaneseScenery.luau|TypeError|Key 'Shape' not found in external type 'Instance'
+server/SakuraJapaneseScenery.luau|TypeError|Key 'Size' not found in external type 'Instance'
+server/SakuraJapaneseScenery.luau|TypeError|Key 'TopSurface' not found in external type 'Instance'
+server/SakuraJapaneseScenery.luau|TypeError|Key 'Transparency' not found in external type 'Instance'
+server/SakuraJapaneseScenery.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'cf'
+server/SakuraJapaneseScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'a'
+server/SakuraJapaneseScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'lower'
+server/SakuraJapaneseScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'p'
+server/SakuraJapaneseScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'pavilionPos'
+server/SakuraJapaneseScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'upper'
+server/SakuraJapaneseScenery.luau|TypeError|Unknown type used in - operation
+server/SakuraJapaneseScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'a'
+server/SakuraJapaneseScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'b'
+server/SakuraJapaneseScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'c'
+server/SakuraJapaneseScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'p'
+server/SakuraJapaneseScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'upper'
+server/SakuraJapaneseScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'lower'
+server/SakuraJapaneseScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'p'
+server/SakuraJapaneseScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'upper'
+server/SakuraPortal.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'center'
+server/SakuraPortal.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'p'
+server/SakuraPortal.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'p'
+server/SakuraTreePlacement.luau|TypeError|Unknown type used in * operation
+server/Services/ProfileService.luau|TypeError|<type-expression>
+server/Services/ProfileService.luau|TypeError|Expected this to be exactly but got caused by: Property '[indexer value]' is not compatible.
+server/Services/WorldService.luau|TypeError|Argument count mismatch. Function expects 2 arguments, but only 1 is specified
+server/SkippingGame.luau|DeprecatedApi|Member 'IsFriendsWith' is deprecated, use 'Player:IsFriendsWithAsync' instead
+server/SkippingGame.luau|TypeError|Key 'Action' not found in external type 'Folder'
+server/SkippingGame.luau|TypeError|Key 'Effect' not found in external type 'Folder'
+server/SkippingGame.luau|TypeError|Key 'Update' not found in external type 'Folder'
+server/SkippingGame.luau|TypeError|Unknown type used in > comparison; consider adding a type annotation to 'a'
+server/SkippingWorld.luau|TypeError|Argument count mismatch. Function 'label' expects 5 arguments, but only 4 are specified
+server/SkippingWorld.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 5 are specified
+server/SkippingWorld.luau|TypeError|Argument count mismatch. Function 'part' expects 7 arguments, but only 6 are specified
+server/SkippingWorld.luau|TypeError|Argument count mismatch. Function 'studs' expects 2 arguments, but only 1 is specified
+server/SkippingWorld.luau|TypeError|Expected this to be 'Enum.Material', but got 'nil'
+server/SkippingWorld.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got '<type>' caused by: Property 'FindFirstChild' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be '<type>', but got 'Instance?' caused by: Not all union options are compatible. Key 'Color' not found in external type 'Instance'
+server/SkippingWorld.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got '<type>' caused by: Property 'FindFirstChildWhichIsA' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be '<type>', but got 'Instance?'
+server/SkippingWorld.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Key 'Color' not found in external type 'Instance'
+server/SkippingWorld.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Key 'Lobby' not found in external type 'Instance'
+server/SkippingWorld.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Key 'Rotation' not found in external type 'Instance'
+server/SkippingWorld.luau|TypeError|Expected this to be 'Instance?', but got 'Enum.NormalId' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got 'Enum.NormalId'
+server/SkippingWorld.luau|TypeError|Expected this to be exactly but got caused by: Property 'GetAttribute' is not compatible. Expected this to be exactly but got caused by: Argument #1 type is not compatible. Expected this to be exactly but got caused by: Property 'SkippingWorld' is not compatible. Expected this to be exactly 'Instance', but got '<type>' caused by: Property 'FindFirstChild' is not compatible. Expected this to be exactly but got caused by: Return type is not compatible. Expected this to be exactly '<type>', but got 'Instance?' caused by: Not all union options are compatible. Key 'Color' not found in external type 'Instance'
+server/SkippingWorld.luau|TypeError|Expected this to be exactly but got caused by: Property 'SetAttribute' is not compatible. Expected this to be exactly but got caused by: Argument #1 type is not compatible. Expected this to be exactly but got caused by: Property 'SkippingWorld' is not compatible. Expected this to be exactly 'Instance', but got '<type>' caused by: Property 'FindFirstChild' is not compatible. Expected this to be exactly but got caused by: Return type is not compatible. Expected this to be exactly '<type>', but got 'Instance?' caused by: Not all union options are compatible. Key 'Color' not found in external type 'Instance'
+server/SkippingWorld.luau|TypeError|Expected this to be exactly but got caused by: Property 'SkippingWorld' is not compatible. Expected this to be exactly '<type>' caused by: Property 'FindFirstChild' is not compatible. Expected this to be exactly but got caused by: Return type is not compatible. Expected this to be exactly '<type>', but got 'Instance?' caused by: Not all union options are compatible. Key 'Color' not found in external type 'Instance'
+server/SkippingWorld.luau|TypeError|Key 'Position' not found in external type 'Enum.NormalId'
+server/SkippingWorld.luau|TypeError|Key 'Size' not found in external type 'Enum.NormalId'
+server/SkippingWorld.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'apron'
+server/SkippingWorld.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'lane'
+server/SkippingWorld.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'pedestal'
+server/SkippingWorld.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'lane'
+server/SmallMapFlowers.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Key 'Lobby' not found in external type 'Instance'
+server/SmallMapFlowers.luau|TypeError|Expected this to be 'number', but got 'number?'
+server/SmallMapFlowers.luau|TypeError|Type "GrassShelf" | "GroundTile" | "RearGrassLedge" | *error-type* cannot be compared with "TunnelGrassRoof"
+server/SmallMapFlowers.luau|TypeError|Type "GrassShelf" | "GroundTile" | *error-type* cannot be compared with "RearGrassLedge"
+server/SmallMapFlowers.luau|TypeError|Type "GroundTile" | *error-type* cannot be compared with "GrassShelf"
+server/SmallMapFlowers.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'surface'
+server/SmallMapFlowers.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'apron'
+server/SmallMapFlowers.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'base'
+server/SmallMapFlowers.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'apron'
+server/SmallMapFlowers.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'base'
+server/SmallMapFlowers.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'surface'
+server/SpawnGarden.luau|TypeError|Argument count mismatch. Function 'part' expects 8 arguments, but only 5 are specified
+server/SpawnGarden.luau|TypeError|Argument count mismatch. Function 'part' expects 8 arguments, but only 7 are specified
+server/SpawnGarden.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got '<type>' caused by: Property 'FindFirstChild' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be '<type>', but got 'Instance?'
+server/SpawnGarden.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Key 'Position' not found in external type 'Instance'
+server/SpawnGarden.luau|TypeError|Expected this to be 'Vector3', but got 'number'
+server/SpawnGarden.luau|TypeError|Expected this to be 'number', but got 'number?'
+server/SpawnGarden.luau|TypeError|Key 'Anchored' not found in external type 'Instance'
+server/SpawnGarden.luau|TypeError|Key 'BottomSurface' not found in external type 'Instance'
+server/SpawnGarden.luau|TypeError|Key 'CFrame' not found in external type 'Instance'
+server/SpawnGarden.luau|TypeError|Key 'CanCollide' not found in external type 'Instance'
+server/SpawnGarden.luau|TypeError|Key 'CanQuery' not found in external type 'Instance'
+server/SpawnGarden.luau|TypeError|Key 'CanTouch' not found in external type 'Instance'
+server/SpawnGarden.luau|TypeError|Key 'Color' not found in external type 'Instance'
+server/SpawnGarden.luau|TypeError|Key 'Material' not found in external type 'Instance'
+server/SpawnGarden.luau|TypeError|Key 'Position' not found in external type 'Instance'
+server/SpawnGarden.luau|TypeError|Key 'Size' not found in external type 'Instance'
+server/SpawnGarden.luau|TypeError|Key 'TopSurface' not found in external type 'Instance'
+server/SpawnGarden.luau|TypeError|Key 'Transparency' not found in external type 'Instance'
+server/SpawnGarden.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'height'
+server/SpawnGarden.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'map'
+server/SpawnGarden.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'variant'
+server/SpawnGarden.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'base'
+server/SpawnGarden.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'p'
+server/SpawnGarden.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'variant'
+server/SpawnGarden.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'base'
+server/SpawnGarden.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'p'
+server/SpawnGarden.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'p'
+server/SpawnGardenPolish.luau|TypeError|Argument count mismatch. Function 'part' expects 8 arguments, but only 5 are specified
+server/SpawnGardenPolish.luau|TypeError|Argument count mismatch. Function 'part' expects 8 arguments, but only 6 are specified
+server/SpawnGardenPolish.luau|TypeError|Argument count mismatch. Function 'part' expects 8 arguments, but only 7 are specified
+server/SpawnGardenPolish.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Key 'Lobby' not found in external type 'Instance'
+server/SpawnGardenPolish.luau|TypeError|Expected this to be 'Vector3', but got 'number'
+server/SpawnGardenPolish.luau|TypeError|Key 'Anchored' not found in external type 'Instance'
+server/SpawnGardenPolish.luau|TypeError|Key 'BottomSurface' not found in external type 'Instance'
+server/SpawnGardenPolish.luau|TypeError|Key 'CFrame' not found in external type 'Instance'
+server/SpawnGardenPolish.luau|TypeError|Key 'CanCollide' not found in external type 'Instance'
+server/SpawnGardenPolish.luau|TypeError|Key 'CanQuery' not found in external type 'Instance'
+server/SpawnGardenPolish.luau|TypeError|Key 'CanTouch' not found in external type 'Instance'
+server/SpawnGardenPolish.luau|TypeError|Key 'Color' not found in external type 'Instance'
+server/SpawnGardenPolish.luau|TypeError|Key 'Material' not found in external type 'Instance'
+server/SpawnGardenPolish.luau|TypeError|Key 'Size' not found in external type 'Instance'
+server/SpawnGardenPolish.luau|TypeError|Key 'TopSurface' not found in external type 'Instance'
+server/SpawnGardenPolish.luau|TypeError|Key 'Transparency' not found in external type 'Instance'
+server/SpawnGardenPolish.luau|TypeError|Unknown type used in % operation; consider adding a type annotation to 'variant'
+server/SpawnGardenPolish.luau|TypeError|Unknown type used in * operation
+server/SpawnGardenPolish.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'map'
+server/SpawnGardenPolish.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'variant'
+server/SpawnGardenPolish.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'base'
+server/VioletValleyScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 4 are specified
+server/VioletValleyScenery.luau|TypeError|Argument count mismatch. Function 'box' expects 6 arguments, but only 5 are specified
+server/VioletValleyScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 6 arguments, but only 4 are specified
+server/VioletValleyScenery.luau|TypeError|Argument count mismatch. Function 'part' expects 6 arguments, but only 5 are specified
+server/VioletValleyScenery.luau|TypeError|Expected this to be '<type>', but got 'Model' caused by: Property 'Parent' is not compatible. Expected this to be 'Model', but got 'Instance?' caused by: Not all union options are compatible. Expected this to be 'Model', but got 'Instance'
+server/VioletValleyScenery.luau|TypeError|Expected this to be 'Instance?', but got '<type>' caused by: None of the union options are compatible. For example: Expected this to be 'Instance', but got '<type>' caused by: Property 'GetChildren' is not compatible. Expected this to be but got caused by: Return type is not compatible. Expected this to be exactly '<type>', but got '<type>' caused by: Property '[indexer value]' is not compatible. Expected this to be exactly '<type>', but got 'Instance' caused by: Property 'IsA' is not compatible. Expected this to be exactly but got caused by: Argument #1 type is not compatible. Key 'Clone' not found in external type 'Object'
+server/VioletValleyScenery.luau|TypeError|Expected this to be 'number', but got 'number?'
+server/VioletValleyScenery.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'index'
+server/VioletValleyScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'a'
+server/VioletValleyScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'lower'
+server/VioletValleyScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'p'
+server/VioletValleyScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'pos'
+server/VioletValleyScenery.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'upper'
+server/VioletValleyScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'a'
+server/VioletValleyScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'p'
+server/VioletValleyScenery.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'upper'
+server/VioletValleyScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'lower'
+server/VioletValleyScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'p'
+server/VioletValleyScenery.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'upper'
+server/VolcanicEgg.luau|TypeError|Expected type table, got 'nil' instead
+server/VolcanicEgg.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'anchor'
+server/VolcanicEgg.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'stand'
+server/VolcanicEgg.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'stand'
+server/World2.luau|TypeError|Unknown type used in + operation
+shared/BallVisuals.luau|TypeError|Unknown type used in % operation; consider adding a type annotation to 'time'
+shared/BallVisuals.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'base'
+shared/GameConfig.luau|TypeError|Expected this to be exactly but got caused by: Property '[indexer value]' is not compatible.
+shared/GameConfig.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'apron'
+shared/GameConfig.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'arena'
+shared/GameConfig.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'strip'
+shared/GameConfig.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'apron'
+shared/GameConfig.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'distance'
+shared/GameConfig.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'root'
+shared/GameConfig.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'strip'
+shared/Net.luau|TypeError|Expected this to be 'string', but got 'unknown'
+shared/PetVisuals.luau|TypeError|Expected this to be 'nil', but got 'ViewportFrame'
+shared/ShotMotion.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'duration'
+shared/ShotMotion.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'startPosition'
+shared/ShotMotion.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'distance'
+shared/TrainingCamera.luau|TypeError|Unknown type used in * operation; consider adding a type annotation to 'cf'
+shared/TrainingCamera.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'cf'
+shared/TrainingCamera.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'characterPosition'
+shared/TrainingCamera.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'characterPosition'
+shared/TrainingCamera.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'viewport'
+shared/TrainingMotion.luau|TypeError|Unknown type used in + operation
+shared/TrainingMotion.luau|TypeError|Unknown type used in - operation; consider adding a type annotation to 'phase'
+shared/TrainingMotion.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'cycleGain'
+shared/VolcanicEggVisual.luau|TypeError|Function only returns 1 value, but 2 are required here
+shared/VolcanicEggVisual.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'anchor'
+shared/VolcanicEggVisual.luau|TypeError|Unknown type used in + operation; consider adding a type annotation to 'stand'
+shared/VolcanicEggVisual.luau|TypeError|Unknown type used in / operation; consider adding a type annotation to 'stand'

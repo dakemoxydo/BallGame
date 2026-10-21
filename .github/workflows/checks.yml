@@ -1,0 +1,65 @@
+name: checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Verify (Linux, clean install)
+    runs-on: ubuntu-latest
+    # The longest single step inside check.mjs has its own 10 minute timeout,
+    # so 30 minutes is a generous ceiling for the whole job. The default
+    # ceiling of 360 minutes would let a hung runner burn the budget.
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        # v4.2.2
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          lfs: true
+
+      - name: Set up Node
+        # v4.4.0
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: 22
+
+      - name: Install Rokit
+        # The installer comes from a released tag and not from a moving branch,
+        # and its hash is verified before it is allowed to run.
+        run: |
+          set -euo pipefail
+          installer="$RUNNER_TEMP/rokit-install.sh"
+          curl -fsSL -o "$installer" \
+            https://raw.githubusercontent.com/rojo-rbx/rokit/v1.2.0/scripts/install.sh
+          echo "4f180e0e19494c02085d43765f731d03e1ae172e00dfcce0a56fbd6598a40b30  $installer" \
+            | sha256sum --check --strict
+          # The version argument pins the downloaded binary to the same release.
+          cd "$RUNNER_TEMP"
+          bash "$installer" 1.2.0
+          echo "$HOME/.rokit/bin" >> "$GITHUB_PATH"
+
+      - name: Install pinned tools
+        run: rokit install
+
+      - name: Run project checks
+        run: node RojoTest/tools/check.mjs
+
+      - name: Upload check logs
+        if: always()
+        # v4.6.2
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: check-logs
+          # The list of the type check regressions is a summary, not a log.
+          path: |
+            RojoTest/.tools/*.log
+            RojoTest/.tools/typecheck-summary.txt
+          if-no-files-found: ignore

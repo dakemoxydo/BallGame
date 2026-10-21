@@ -1,0 +1,78 @@
+{
+  "verified": true,
+  "balls": 10,
+  "meshes": 14,
+  "checks": [
+    {
+      "mesh": "Ball_01_RubberRookie_Body",
+      "triangles": 9024,
+      "texture_found": true
+    },
+    {
+      "mesh": "Ball_02_SteelImpact_Body",
+      "triangles": 8736,
+      "texture_found": true
+    },
+    {
+      "mesh": "Ball_03_CrystalIce_Body",
+      "triangles": 32,
+      "texture_found": true
+    },
+    {
+      "mesh": "Ball_03_CrystalIce_Shell",
+      "triangles": 80,
+      "texture_found": true
+    },
+    {
+      "mesh": "Ball_04_VolcanoHeart_Body",
+      "triangles": 2880,
+      "texture_found": true
+    },
+    {
+      "mesh": "Ball_05_MechanicalReactor_Body",
+      "triangles": 7272,
+      "texture_found": true
+    },
+    {
+      "mesh": "Ball_05_MechanicalReactor_Core",
+      "triangles": 4416,
+      "texture_found": true
+    },
+    {
+      "mesh": "Ball_06_PlasmaSatellite_Body",
+      "triangles": 296,
+      "texture_found": true
+    },
+    {
+      "mesh": "Ball_07_ThunderSplit_Body",
+      "triangles": 236,
+      "texture_found": true
+    },
+    {
+      "mesh": "Ball_08_DragonSun_Body",
+      "triangles": 264,
+      "texture_found": true
+    },
+    {
+      "mesh": "Ball_09_BlackHole_Body",
+      "triangles": 272,
+      "texture_found": true
+    },
+    {
+      "mesh": "Ball_10_WorldCreator_Body",
+      "triangles": 7626,
+      "texture_found": true
+    },
+    {
+      "mesh": "Ball_10_WorldCreator_Shell",
+      "triangles": 2208,
+      "texture_found": true
+    },
+    {
+      "mesh": "Ball_10_WorldCreator_World",
+      "triangles": 4416,
+      "texture_found": true
+    }
+  ],
+  "roblox_studio_tested": false
+}

@@ -1,0 +1,690 @@
+{
+  "replaced": 62,
+  "template": "ServerStorage.Assets.Environment.Oak",
+  "backup": "ServerStorage.WorldBackups.BeforeOakTreeReplacement",
+  "pendingMeshUpload": true,
+  "manifest": [
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_01",
+      "height": 19,
+      "base": [
+        -25.839996337890625,
+        29.03,
+        -1355.9000244140625
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_02",
+      "height": 19,
+      "base": [
+        -25.839996337890625,
+        29.03,
+        -1306.9000244140625
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_03",
+      "height": 19,
+      "base": [
+        -205.83999633789062,
+        29.03,
+        -455.9000244140625
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_04",
+      "height": 19,
+      "base": [
+        -205.83999633789062,
+        29.03,
+        -504.9000244140625
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_05",
+      "height": 18,
+      "base": [
+        -205.83999633789062,
+        29.03,
+        -144.9000244140625
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_06",
+      "height": 19,
+      "base": [
+        -25.839996337890625,
+        29.03,
+        -455.9000244140625
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_07",
+      "height": 19,
+      "base": [
+        -25.839996337890625,
+        29.03,
+        -504.9000244140625
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_08",
+      "height": 19,
+      "base": [
+        -25.839996337890625,
+        29.03,
+        -1404.9000244140625
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_09",
+      "height": 19,
+      "base": [
+        -25.839996337890625,
+        29.03,
+        -406.9000244140625
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_10",
+      "height": 19,
+      "base": [
+        -205.83999633789062,
+        29.03,
+        -1404.9000244140625
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_11",
+      "height": 18,
+      "base": [
+        -25.839996337890625,
+        29.03,
+        -144.9000244140625
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_12",
+      "height": 19,
+      "base": [
+        -205.83999633789062,
+        29.03,
+        -1355.9000244140625
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_13",
+      "height": 19,
+      "base": [
+        -205.83999633789062,
+        29.03,
+        -1306.9000244140625
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_14",
+      "height": 19,
+      "base": [
+        -205.83999633789062,
+        29.03,
+        -406.9000244140625
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_15",
+      "height": 18.525001883506775,
+      "base": [
+        -34.839996337890625,
+        20.02999809265137,
+        207.0999755859375
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_16",
+      "height": 21.450000047683716,
+      "base": [
+        -163.83999633789062,
+        20.03,
+        151.0999755859375
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_17",
+      "height": 22.424999952316284,
+      "base": [
+        -133.83999633789062,
+        20.03,
+        87.0999755859375
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_18",
+      "height": 18,
+      "base": [
+        -168.83999633789062,
+        20.03,
+        42.0999755859375
+      ],
+      "collision": false
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_19",
+      "height": 22.5,
+      "base": [
+        -164.83999633789062,
+        20.03,
+        202.0999755859375
+      ],
+      "collision": true
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_20",
+      "height": 18.525001406669617,
+      "base": [
+        1965,
+        0.02999856948852539,
+        205
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_21",
+      "height": 18,
+      "base": [
+        1831,
+        0.029999046325683593,
+        40
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_22",
+      "height": 22.424998998641968,
+      "base": [
+        1866,
+        0.030000953674316405,
+        85
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_23",
+      "height": 21.450001001358032,
+      "base": [
+        1836,
+        0.029999046325683593,
+        149
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_24",
+      "height": 18,
+      "base": [
+        1794,
+        9.03,
+        -147
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_25",
+      "height": 19,
+      "base": [
+        1974,
+        9.03,
+        -409
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_26",
+      "height": 19,
+      "base": [
+        1794,
+        9.03,
+        -458
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_27",
+      "height": 19,
+      "base": [
+        1794,
+        9.03,
+        -507
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_28",
+      "height": 18,
+      "base": [
+        1974,
+        9.03,
+        -147
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_29",
+      "height": 19,
+      "base": [
+        1974,
+        9.03,
+        -458
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_30",
+      "height": 19,
+      "base": [
+        1794,
+        9.03,
+        -1309
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_31",
+      "height": 19,
+      "base": [
+        1974,
+        9.03,
+        -1309
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_32",
+      "height": 19,
+      "base": [
+        1974,
+        9.03,
+        -1358
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_33",
+      "height": 19,
+      "base": [
+        1974,
+        9.03,
+        -507
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_34",
+      "height": 19,
+      "base": [
+        1974,
+        9.03,
+        -1407
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_35",
+      "height": 19,
+      "base": [
+        1794,
+        9.03,
+        -1358
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_36",
+      "height": 19,
+      "base": [
+        1794,
+        9.03,
+        -1407
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_37",
+      "height": 19,
+      "base": [
+        1794,
+        9.03,
+        -409
+      ],
+      "collision": false
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_38",
+      "height": 22.5,
+      "base": [
+        1835,
+        0.03,
+        200
+      ],
+      "collision": true
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_39",
+      "height": 19,
+      "base": [
+        -24.839996337890625,
+        29.03,
+        -328.3570251464844
+      ],
+      "collision": true
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_40",
+      "height": 19,
+      "base": [
+        -206.83999633789062,
+        29.03,
+        -393.92041015625
+      ],
+      "collision": true
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_41",
+      "height": 19,
+      "base": [
+        -206.83999633789062,
+        29.03,
+        -429.74560546875
+      ],
+      "collision": true
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_42",
+      "height": 19,
+      "base": [
+        -24.839996337890625,
+        29.03,
+        -461.5027770996094
+      ],
+      "collision": true
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_43",
+      "height": 19,
+      "base": [
+        -24.839996337890625,
+        29.03,
+        -390.7977600097656
+      ],
+      "collision": true
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_44",
+      "height": 19,
+      "base": [
+        -24.839996337890625,
+        29.03,
+        -424.93389892578125
+      ],
+      "collision": true
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_45",
+      "height": 19,
+      "base": [
+        -206.83999633789062,
+        29.03,
+        -456.7880554199219
+      ],
+      "collision": true
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_46",
+      "height": 19,
+      "base": [
+        -24.839996337890625,
+        29.03,
+        -359.6910705566406
+      ],
+      "collision": true
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_47",
+      "height": 19,
+      "base": [
+        -24.839996337890625,
+        29.03,
+        -293.78546142578125
+      ],
+      "collision": true
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_48",
+      "height": 19,
+      "base": [
+        -206.83999633789062,
+        29.03,
+        -286.7899169921875
+      ],
+      "collision": true
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_49",
+      "height": 19,
+      "base": [
+        -206.83999633789062,
+        29.03,
+        -353.08624267578125
+      ],
+      "collision": true
+    },
+    {
+      "map": "ProgressionMap",
+      "name": "Oak_50",
+      "height": 19,
+      "base": [
+        -206.83999633789062,
+        29.03,
+        -319.7236633300781
+      ],
+      "collision": true
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_51",
+      "height": 19,
+      "base": [
+        1793,
+        9.03,
+        -458.8880310058594
+      ],
+      "collision": true
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_52",
+      "height": 19,
+      "base": [
+        1793,
+        9.03,
+        -321.8236389160156
+      ],
+      "collision": true
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_53",
+      "height": 19,
+      "base": [
+        1793,
+        9.03,
+        -288.889892578125
+      ],
+      "collision": true
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_54",
+      "height": 19,
+      "base": [
+        1975,
+        9.03,
+        -361.7910461425781
+      ],
+      "collision": true
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_55",
+      "height": 19,
+      "base": [
+        1975,
+        9.03,
+        -463.6027526855469
+      ],
+      "collision": true
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_56",
+      "height": 19,
+      "base": [
+        1975,
+        9.03,
+        -392.8977355957031
+      ],
+      "collision": true
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_57",
+      "height": 19,
+      "base": [
+        1975,
+        9.03,
+        -295.88543701171875
+      ],
+      "collision": true
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_58",
+      "height": 19,
+      "base": [
+        1975,
+        9.03,
+        -330.4570007324219
+      ],
+      "collision": true
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_59",
+      "height": 19,
+      "base": [
+        1793,
+        9.03,
+        -396.0203857421875
+      ],
+      "collision": true
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_60",
+      "height": 19,
+      "base": [
+        1975,
+        9.03,
+        -427.03387451171875
+      ],
+      "collision": true
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_61",
+      "height": 19,
+      "base": [
+        1793,
+        9.03,
+        -355.18621826171875
+      ],
+      "collision": true
+    },
+    {
+      "map": "World2Map",
+      "name": "Oak_62",
+      "height": 19,
+      "base": [
+        1793,
+        9.03,
+        -431.8455810546875
+      ],
+      "collision": true
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+[
+  {
+    "name": "01 Sakura Shrine.001",
+    "file": "01.json",
+    "triangles": 6540,
+    "materials": [
+      "Sakura Shrine shell",
+      "Faceted basalt",
+      "Twisted bark",
+      "Vermilion",
+      "Sakura petals",
+      "Gold"
+    ]
+  },
+  {
+    "name": "02 Volcanic Inferno.001",
+    "file": "02.json",
+    "triangles": 4004,
+    "materials": [
+      "Volcanic Inferno shell",
+      "Faceted basalt",
+      "Lava glow",
+      "Gold",
+      "Vermilion"
+    ]
+  },
+  {
+    "name": "03 Ancient Sakura.001",
+    "file": "03.json",
+    "triangles": 7928,
+    "materials": [
+      "Ancient Sakura shell",
+      "Faceted basalt",
+      "Twisted bark",
+      "Sakura petals",
+      "Lava glow",
+      "Vermilion",
+      "Gold"
+    ]
+  },
+  {
+    "name": "04 Sky Waterfall.001",
+    "file": "04.json",
+    "triangles": 5450,
+    "materials": [
+      "Sky Waterfall shell",
+      "Faceted basalt",
+      "Ice crystal",
+      "Cloud ivory",
+      "Lava glow",
+      "Vermilion",
+      "Gold"
+    ]
+  },
+  {
+    "name": "05 Astral Orbit.001",
+    "file": "05.json",
+    "triangles": 3550,
+    "materials": [
+      "Astral Orbit shell",
+      "Faceted basalt",
+      "Gold",
+      "Amethyst crystal"
+    ]
+  },
+  {
+    "name": "06 Forest Heart.001",
+    "file": "06.json",
+    "triangles": 4708,
+    "materials": [
+      "Forest Heart shell",
+      "Faceted basalt",
+      "Twisted bark",
+      "Nature glow",
+      "Emerald foliage"
+    ]
+  },
+  {
+    "name": "07 Tropical Bloom.001",
+    "file": "07.json",
+    "triangles": 7748,
+    "materials": [
+      "Tropical Bloom shell",
+      "Faceted basalt",
+      "Twisted bark",
+      "Sakura petals",
+      "Gold",
+      "Vermilion",
+      "Emerald foliage"
+    ]
+  },
+  {
+    "name": "08 Frozen Rune.001",
+    "file": "08.json",
+    "triangles": 3020,
+    "materials": [
+      "Frozen Rune shell",
+      "Cloud ivory",
+      "Ice crystal"
+    ]
+  },
+  {
+    "name": "09 Void Crystal.001",
+    "file": "09.json",
+    "triangles": 3488,
+    "materials": [
+      "Void Crystal shell",
+      "Faceted basalt",
+      "Arcane light",
+      "Amethyst crystal"
+    ]
+  },
+  {
+    "name": "10 Solar Crown.001",
+    "file": "10.json",
+    "triangles": 4854,
+    "materials": [
+      "Solar Crown shell",
+      "Cloud ivory",
+      "Gold"
+    ]
+  },
+  {
+    "name": "11 Moss Ruins.001",
+    "file": "11.json",
+    "triangles": 4780,
+    "materials": [
+      "Moss Ruins shell",
+      "Faceted basalt",
+      "Twisted bark",
+      "Nature glow",
+      "Emerald foliage"
+    ]
+  },
+  {
+    "name": "12 Coral Ocean.001",
+    "file": "12.json",
+    "triangles": 3512,
+    "materials": [
+      "Coral Ocean shell",
+      "Faceted basalt",
+      "Coral pink",
+      "Sakura petals",
+      "Ice crystal"
+    ]
+  },
+  {
+    "name": "13 Desert Oasis.001",
+    "file": "13.json",
+    "triangles": 3896,
+    "materials": [
+      "Desert Oasis shell",
+      "Sandstone",
+      "Twisted bark",
+      "Ice crystal",
+      "Emerald foliage"
+    ]
+  },
+  {
+    "name": "14 Chained Abyss.001",
+    "file": "14.json",
+    "triangles": 5472,
+    "materials": [
+      "Chained Abyss shell",
+      "Faceted basalt",
+      "Arcane light",
+      "Amethyst crystal"
+    ]
+  },
+  {
+    "name": "15 Garden Bloom.001",
+    "file": "15.json",
+    "triangles": 6548,
+    "materials": [
+      "Garden Bloom shell",
+      "Faceted basalt",
+      "Twisted bark",
+      "Sakura petals",
+      "Gold",
+      "Emerald foliage"
+    ]
+  }
+]
