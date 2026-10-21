@@ -16,6 +16,7 @@ local UI = {}
 local LAYER_BLOCKER = 25
 local LAYER_WINDOW = 30
 local LAYER_NAVIGATION = 50
+local LAYER_TOAST = 60
 local navigation = {
 	{ "Shop", "Shop" },
 	{ "Pets", "Pets" },
@@ -190,6 +191,57 @@ local function Window(p: WindowProps)
 		}),
 	})
 end
+
+-- Server answers answered a press inside a collector window: the legacy
+-- toast lives on a lower layer, so a copy of it is drawn here, above the
+-- window. The plate repeats the legacy toast brick and its place on the
+-- board: centred, in the upper third of the screen.
+local function Toast(p: { Message: string, Area: Vector2, Closing: boolean, Reduced: boolean, Settled: () -> () })
+	local progress, goal = U.Hooks.useSpringBinding(0, { Frequency = 6, DampingRatio = 1 }, p.Reduced, function(value)
+		if value == 0 and p.Closing then
+			p.Settled()
+		end
+	end)
+	React.useEffect(function()
+		goal(p.Closing and 0 or 1)
+		-- The message is not in the change list: a new notice mounts a new
+		-- toast under a fresh key, so the spring starts from zero again.
+	end, { p.Closing })
+	local width = math.min(620, math.max(240, math.floor(p.Area.X * 0.48)))
+	return e("CanvasGroup", {
+		Name = "Toast",
+		AnchorPoint = Vector2.new(0.5, 0.5),
+		Position = progress:map(function(value)
+			return UDim2.new(0.5, 0, 0.2875, math.round((1 - math.clamp(value, 0, 1)) * 8))
+		end),
+		Size = UDim2.fromOffset(width, 44),
+		BackgroundTransparency = 1,
+		BorderSizePixel = 0,
+		GroupTransparency = progress:map(function(value)
+			return 1 - math.clamp(value, 0, 1)
+		end),
+		ZIndex = LAYER_TOAST,
+	}, {
+		Plate = e(U.Surface, {
+			Color = Color3.fromRGB(38, 50, 74),
+			NoShadow = true,
+			Children = {
+				Note = e(U.Label, {
+					Name = "Note",
+					Text = p.Message,
+					TextSize = 27,
+					Scaled = true,
+					MinTextSize = 14,
+					MaxTextSize = 27,
+					Color = T.Gold,
+					Wrap = true,
+					ZIndex = 13,
+				}),
+			},
+		}),
+	})
+end
+
 function UI.mount(context)
 	local gui = Instance.new("ScreenGui")
 	gui.Name = "CollectorUI"
@@ -199,8 +251,18 @@ function UI.mount(context)
 	gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 	gui.Parent = Players.LocalPlayer.PlayerGui
 	local root = ReactRoblox.createRoot(gui)
-	local handle =
-		{ Snapshot = nil, Active = nil, View = nil, Serial = 0, Pending = nil, EggId = "Common", Hidden = false }
+	local handle = {
+		Snapshot = nil,
+		Active = nil,
+		View = nil,
+		Serial = 0,
+		Pending = nil,
+		EggId = "Common",
+		Hidden = false,
+		ToastId = 0,
+		Toast = nil,
+		ToastClosing = false,
+	}
 	local render
 	local function request(command, value, extra)
 		if handle.Pending then
@@ -286,20 +348,26 @@ function UI.mount(context)
 					OnActivated = function()
 						open(item[1])
 					end,
+					-- The style rules of the docs ask for 8 px of air between the
+					-- icon and its caption and 6 px of air between the caption
+					-- and the plate edge: the icon ends at size - 34, the
+					-- caption box starts at size - 26 and stops 6 px above the
+					-- lower edge. A button narrower than 54 px carries its name
+					-- centred instead of an icon.
 					Children = {
-						Art = e(U.Icon, {
+						Art = not narrow and e(U.Icon, {
 							Kind = item[2],
 							Position = UDim2.fromOffset(5, -2),
-							Size = UDim2.fromOffset(size - 10, size - 18),
+							Size = UDim2.fromOffset(size - 10, size - 32),
 							ZIndex = 30,
-						}),
+						}) or nil,
 						Caption = e(U.Label, {
 							-- The long name of a tab does not fit under its
 							-- icon: the short one is the name of the screen.
 							Text = item[3] or item[1],
 							TextSize = narrow and 11 or math.max(15, math.floor(size * 0.25)),
-							Position = UDim2.fromOffset(2, size - 26),
-							Size = UDim2.fromOffset(size - 4, 24),
+							Position = narrow and UDim2.fromOffset(2, 0) or UDim2.fromOffset(2, size - 26),
+							Size = narrow and UDim2.fromOffset(size - 4, size) or UDim2.fromOffset(size - 4, 20),
 							ZIndex = 30,
 						}),
 					},
@@ -440,6 +508,22 @@ function UI.mount(context)
 				},
 			})
 		end
+		if handle.Toast then
+			children.Toast = e(Toast, {
+				key = "toast" .. handle.ToastId,
+				Message = handle.Toast,
+				Area = area,
+				Closing = handle.ToastClosing == true,
+				Reduced = data and data.settings.effects == false or false,
+				Settled = function()
+					-- The toast is cleared after its fade out: clearing it
+					-- earlier would cut the spring mid-flight.
+					handle.Toast = nil
+					handle.ToastClosing = false
+					render()
+				end,
+			})
+		end
 		return e(U.MotionContext.Provider, { value = data and data.settings.effects == false }, {
 			Area = e("Frame", {
 				Name = "SafeArea",
@@ -470,6 +554,25 @@ function UI.mount(context)
 		self.Snapshot = snapshot
 		self.Pending = nil
 		render()
+	end
+	function handle:notice(message)
+		-- An empty answer has nothing to show: the toast exists for its text.
+		if message == nil or message == "" then
+			return
+		end
+		self.ToastId += 1
+		self.Toast = message
+		self.ToastClosing = false
+		render()
+		local id = self.ToastId
+		-- A newer answer owns the toast: its timer alone starts the fade out,
+		-- an older one must not cut a fresh message short.
+		task.delay(2.6, function()
+			if self.ToastId == id and not self.ToastClosing then
+				self.ToastClosing = true
+				render()
+			end
+		end)
 	end
 	function handle:request(command, value, extra)
 		request(command, value, extra)

@@ -234,6 +234,13 @@ function Controller:Start()
 		if not message or message == "" then
 			return
 		end
+		-- The legacy toast lives under the collector windows: its gui sits
+		-- on DisplayOrder 20 while the collector mounts at 30, so while a
+		-- collector screen owns the panel the answer has to be drawn inside
+		-- its window as well. Legacy panels keep the plain toast on top.
+		if currentPanel ~= nil and navAllowed(currentPanel) and collectorUI then
+			collectorUI:notice(message)
+		end
 		toastId += 1
 		local id = toastId
 		local toast = hudRefs.toast

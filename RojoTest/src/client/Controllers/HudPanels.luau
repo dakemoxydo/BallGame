@@ -94,6 +94,26 @@ function Panels.mount(context: Context): Handle
 			:Create(scale, TweenInfo.new(0.24, Enum.EasingStyle.Back, Enum.EasingDirection.Out), { Scale = factor })
 			:Play()
 		TweenService:Create(modal, TweenInfo.new(0.18), { BackgroundTransparency = 0.3 }):Play()
+		-- The world behind a legacy modal must not take clicks: the
+		-- collector screens own a blocker of their own, so the panels match
+		-- them. The SkippingHUD screen runs the Sibling ZIndex behaviour, so
+		-- the blocker has to take its place in the canvas ordering, right
+		-- below the modal: parked under the ScreenGui it would rank against
+		-- the canvas subtree as a whole and swallow the modal's own clicks.
+		-- The blocker dies with its modal, a stale one would swallow
+		-- the game forever.
+		local blocker = Instance.new("TextButton")
+		blocker.Name = "ModalBlocker"
+		blocker.Text = ""
+		blocker.AutoButtonColor = false
+		blocker.BackgroundTransparency = 1
+		blocker.Size = UDim2.fromScale(1, 1)
+		blocker.Modal = true
+		blocker.ZIndex = LAYER_PANEL - 1
+		blocker.Parent = canvas
+		modal.Destroying:Connect(function()
+			blocker:Destroy()
+		end)
 		return modal
 	end
 
@@ -134,9 +154,13 @@ function Panels.mount(context: Context): Handle
 			if i <= 2 then
 				local track = Kit.frame(row, "Track", 310, 25, 220, 12, C(12, 27, 30))
 				Kit.stroke(track, 2)
-				local fill = Kit.frame(track, "Fill", 0, 0, 220, 12, C(70, 236, 0))
-				local b = Kit.button(row, "Volume", "100", 530, 10, 31, 44, C(100, 238, 8), 17)
-				local value = 100
+				local snapshotAtBuild = context.snapshot()
+				local value = snapshotAtBuild and snapshotAtBuild.data.settings[info[2]] or 100
+				-- The fill starts at the saved volume, not at 100 %: the
+				-- panel is shown long before refresh() can run again.
+				local fill = Kit.frame(track, "Fill", 0, 0, 220 * value / 100, 12, C(70, 236, 0))
+				local b =
+					Kit.button(row, "Volume", tostring(value), 310 + 220 * value / 100, 10, 31, 44, C(100, 238, 8), 17)
 				local corner = Kit.cornerOf(b)
 				if corner then
 					corner.CornerRadius = UDim.new(0, 1)
@@ -237,11 +261,7 @@ function Panels.mount(context: Context): Handle
 					if caption then
 						caption.Text = v and "ON" or "OFF"
 					end
-					b.BackgroundColor3 = v and C(61, 229, 33) or C(249, 61, 68)
-					local studs = Kit.studsOf(b)
-					if studs then
-						studs.ImageColor3 = b.BackgroundColor3
-					end
+					Kit.paint(b, v and C(61, 229, 33) or C(249, 61, 68))
 				end
 			end
 		end
@@ -328,11 +348,11 @@ function Panels.mount(context: Context): Handle
 				if actionCaption then
 					actionCaption.Text = ready and "Rebirth" or "Need Level " .. Config.MaxLevel
 				end
-				actionButton.BackgroundColor3 = ready and C(82, 232, 18) or C(115, 127, 143)
-				local studs = Kit.studsOf(actionButton)
-				if studs then
-					studs.ImageColor3 = actionButton.BackgroundColor3
-				end
+				-- A locked rebirth gets the muted block and stops being a
+				-- button: the click would only travel to the server and die
+				-- there in silence.
+				Kit.paint(actionButton, ready and C(82, 232, 18) or C(115, 127, 143))
+				actionButton.Active = ready
 			end
 		end
 		refresh()
@@ -415,14 +435,19 @@ function Panels.mount(context: Context): Handle
 			local snapshot = context.snapshot()
 			if snapshot then
 				for i, b in rows do
+					local claimed = snapshot.gifts[i] == true
 					local remaining = Config.Gifts[i].time - snapshot.elapsed
 					local caption = Kit.captionOf(b)
 					if caption then
-						caption.Text = snapshot.gifts[i] and "Claimed"
+						caption.Text = claimed and "Claimed"
 							or remaining <= 0 and "Claim"
 							or string.format("%02d:%02d", math.floor(remaining / 60), remaining % 60)
 					end
-					b.BackgroundColor3 = remaining <= 0 and C(84, 235, 24) or C(90, 106, 136)
+					-- Green says "you can claim right now". A claimed gift
+					-- wears the same muted block as a running countdown, so
+					-- the row never reads as collectible again.
+					Kit.paint(b, (not claimed and remaining <= 0) and C(84, 235, 24) or C(90, 106, 136))
+					b.Active = not claimed
 				end
 			end
 		end

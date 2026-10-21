@@ -18,6 +18,10 @@ function Icons.draw(parent, kind, color)
 	local slot = Assets.Slots[key]
 	local collectorSlot = CollectorArt.Slots[key]
 	if collectorSlot ~= nil then
+		-- The tint is part of the draw request: the caller passes the colour
+		-- of the thing the icon belongs to, like the admin egg or the starter
+		-- pack purple, and the icon is drawn in it. An icon without a colour
+		-- keeps its native atlas look.
 		local image = Instance.new("ImageLabel")
 		image.Name = "Icon_" .. key
 		image.BackgroundTransparency = 1
@@ -28,6 +32,9 @@ function Icons.draw(parent, kind, color)
 		image.ScaleType = Enum.ScaleType.Fit
 		image.ImageRectOffset = Vector2.new((collectorSlot % 4) * 256, math.floor(collectorSlot / 4) * 256)
 		image.ImageRectSize = Vector2.new(256, 256)
+		if color then
+			image.ImageColor3 = color
+		end
 		image.Parent = parent
 		return image
 	end
@@ -47,6 +54,9 @@ function Icons.draw(parent, kind, color)
 	image.ImageRectOffset = rect and Vector2.new(rect[1] * Assets.Width, rect[2] * Assets.Height)
 		or Vector2.new((slot % Assets.Columns) * w, math.floor(slot / Assets.Columns) * h)
 	image.ImageRectSize = rect and Vector2.new(rect[3] * Assets.Width, rect[4] * Assets.Height) or Vector2.new(w, h)
+	if color then
+		image.ImageColor3 = color
+	end
 	image.Parent = parent
 	return image
 end

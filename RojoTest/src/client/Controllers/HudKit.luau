@@ -150,6 +150,11 @@ function Kit.button(
 	b.BorderSizePixel = 0
 	b.Text = ""
 	b.AutoButtonColor = false
+	-- Widgets repaint their buttons at runtime (gift rows, the locked
+	-- rebirth button), so the hover and press tweens read the resting
+	-- colour back from this attribute: they must return to the repainted
+	-- colour, not to the one the button was born with.
+	b:SetAttribute("RestColor", color)
 	b.Parent = parent
 	Kit.corner(b, 7)
 	Kit.stroke(b, 2)
@@ -169,19 +174,26 @@ function Kit.button(
 	limit.MinTextSize = 10
 	limit.MaxTextSize = size or 26
 	limit.Parent = caption
+	local restColor = function(): Color3
+		local saved = b:GetAttribute("RestColor")
+		if typeof(saved) == "Color3" then
+			return saved
+		end
+		return color
+	end
 	b.MouseEnter:Connect(function()
-		TweenService:Create(b, TweenInfo.new(0.1), { BackgroundColor3 = color:Lerp(white, 0.2) }):Play()
+		TweenService:Create(b, TweenInfo.new(0.1), { BackgroundColor3 = restColor():Lerp(white, 0.2) }):Play()
 	end)
 	b.MouseLeave:Connect(function()
-		TweenService:Create(b, TweenInfo.new(0.1), { BackgroundColor3 = color }):Play()
+		TweenService:Create(b, TweenInfo.new(0.1), { BackgroundColor3 = restColor() }):Play()
 	end)
 	-- The press darkens the plate. The button never moves: some callers put
 	-- it where they want it and a tween on the position would fight them.
 	b.MouseButton1Down:Connect(function()
-		TweenService:Create(b, TweenInfo.new(0.06), { BackgroundColor3 = color:Lerp(Color3.new(), 0.22) }):Play()
+		TweenService:Create(b, TweenInfo.new(0.06), { BackgroundColor3 = restColor():Lerp(Color3.new(), 0.22) }):Play()
 	end)
 	b.MouseButton1Up:Connect(function()
-		TweenService:Create(b, TweenInfo.new(0.1), { BackgroundColor3 = color:Lerp(white, 0.2) }):Play()
+		TweenService:Create(b, TweenInfo.new(0.1), { BackgroundColor3 = restColor():Lerp(white, 0.2) }):Play()
 	end)
 	if callback then
 		b.Activated:Connect(callback)
@@ -220,6 +232,20 @@ function Kit.studsOf(node: Instance): ImageLabel?
 		return studs
 	end
 	return nil
+end
+
+-- Repaints a button built by Kit.button and updates the colour its hover
+-- and press animations return to: refresh() calls this instead of writing
+-- BackgroundColor3 directly, so the animations cannot drag a repainted
+-- button back to its birth colour.
+function Kit.paint(button: TextButton, color: Color3): TextButton
+	button:SetAttribute("RestColor", color)
+	button.BackgroundColor3 = color
+	local studs = Kit.studsOf(button)
+	if studs then
+		studs.ImageColor3 = color:Lerp(white, 0.25)
+	end
+	return button
 end
 
 return Kit

@@ -74,17 +74,16 @@ function U.Label(p)
 end
 function U.Icon(p)
 	local slot = Art.Slots[p.Kind]
-	local image, offset, size = Art.Image, nil, nil
+	local rect = not slot and OldArt.Rects[p.Kind] or nil
+	local image, offset, size
 	if slot then
+		image = Art.Image
 		offset, size = Vector2.new(slot % 4 * 256, math.floor(slot / 4) * 256), Vector2.new(256, 256)
-	else
-		local rect = OldArt.Rects[p.Kind]
+	elseif rect then
 		image = OldArt.Image
-		if rect then
-			offset, size =
-				Vector2.new(rect[1] * OldArt.Width, rect[2] * OldArt.Height),
-				Vector2.new(rect[3] * OldArt.Width, rect[4] * OldArt.Height)
-		end
+		offset, size =
+			Vector2.new(rect[1] * OldArt.Width, rect[2] * OldArt.Height),
+			Vector2.new(rect[3] * OldArt.Width, rect[4] * OldArt.Height)
 	end
 	return e("ImageLabel", {
 		Name = p.Name or (p.Kind .. "Art"),
@@ -92,7 +91,9 @@ function U.Icon(p)
 		Position = p.Position,
 		Size = p.Size or UDim2.fromScale(1, 1),
 		AnchorPoint = p.AnchorPoint,
-		Image = image,
+		-- An unknown kind has no picture of its own: an empty image draws
+		-- nothing, so the slot stays empty instead of spilling the atlas.
+		Image = image or "",
 		ImageRectOffset = offset,
 		ImageRectSize = size,
 		ScaleType = Enum.ScaleType.Fit,
@@ -110,9 +111,10 @@ function U.Surface(p)
 	local radius, z = p.Radius or Theme.Radius, p.ZIndex or 2
 	local decoration = {
 		Corner = U.corner(radius),
+		-- Selection comes from the callers (the collection cards) and repeats the yellow 4 px outline of the legacy panels.
 		Outline = e("UIStroke", {
-			Thickness = p.Outline or Theme.Stroke,
-			Color = Theme.Outline,
+			Thickness = p.Selected and 4 or (p.Outline or Theme.Stroke),
+			Color = p.Selected and Theme.Gold or Theme.Outline,
 			ApplyStrokeMode = Enum.ApplyStrokeMode.Border,
 		}),
 	}
